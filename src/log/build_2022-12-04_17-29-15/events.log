@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (gazebodemo) JobQueued: {'identifier': 'gazebodemo', 'dependencies': OrderedDict()}
+[0.000317] (hwsols) JobQueued: {'identifier': 'hwsols', 'dependencies': OrderedDict()}
+[0.000357] (gazebodemo) JobStarted: {'identifier': 'gazebodemo'}
+[0.020031] (hwsols) JobStarted: {'identifier': 'hwsols'}
+[0.098746] (-) TimerEvent: {}
+[0.199588] (-) TimerEvent: {}
+[0.300433] (-) TimerEvent: {}
+[0.400951] (-) TimerEvent: {}
+[0.501492] (-) TimerEvent: {}
+[0.602461] (-) TimerEvent: {}
+[0.702796] (-) TimerEvent: {}
+[0.803697] (-) TimerEvent: {}
+[0.904421] (-) TimerEvent: {}
+[1.004714] (-) TimerEvent: {}
+[1.105706] (-) TimerEvent: {}
+[1.206524] (-) TimerEvent: {}
+[1.307042] (-) TimerEvent: {}
+[1.315606] (gazebodemo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/hope/me133a/src/install/gazebodemo', '--editable', '--build-directory', '/home/hope/me133a/src/build/gazebodemo/build', '--no-deps', 'install_data', '--install-dir', '/home/hope/me133a/src/install/gazebodemo'], 'cwd': '/home/hope/me133a/src/build/gazebodemo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hope', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hope', 'OLDPWD': '/home/hope/me133a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1025', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hope/133ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hope', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hope', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hope-VB:@/tmp/.ICE-unix/1007,unix/hope-VB:/tmp/.ICE-unix/1007', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4bf40d50_1783_4b12_b53b_909388a3c156', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QR0LW1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.156', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/hope/133ws/install/hw7code:/home/hope/133ws/install/hw6code:/home/hope/133ws/install/hw5code:/home/hope/133ws/install/hw4code:/home/hope/133ws/install/hw3code:/home/hope/133ws/install/gazebodemo:/home/hope/133ws/install/atlas_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hope/me133a/src/build/gazebodemo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hope/me133a/src/install/gazebodemo/lib/python3.10/site-packages:/home/hope/133ws/build/hw7code:/home/hope/133ws/install/hw7code/lib/python3.10/site-packages:/home/hope/133ws/build/hw6code:/home/hope/133ws/install/hw6code/lib/python3.10/site-packages:/home/hope/133ws/build/hw5code:/home/hope/133ws/install/hw5code/lib/python3.10/site-packages:/home/hope/133ws/build/hw4code:/home/hope/133ws/install/hw4code/lib/python3.10/site-packages:/home/hope/133ws/build/hw3code:/home/hope/133ws/install/hw3code/lib/python3.10/site-packages:/home/hope/133ws/build/gazebodemo:/home/hope/133ws/install/gazebodemo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hope/133ws/install/atlas_description'}, 'shell': False}
+[1.321309] (hwsols) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/hope/me133a/src/install/hwsols', '--editable', '--build-directory', '/home/hope/me133a/src/build/hwsols/build', '--no-deps', 'install_data', '--install-dir', '/home/hope/me133a/src/install/hwsols'], 'cwd': '/home/hope/me133a/src/build/hwsols', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hope', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hope', 'OLDPWD': '/home/hope/me133a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1025', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hope/133ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hope', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hope', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hope-VB:@/tmp/.ICE-unix/1007,unix/hope-VB:/tmp/.ICE-unix/1007', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4bf40d50_1783_4b12_b53b_909388a3c156', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QR0LW1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.156', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/hope/133ws/install/hw7code:/home/hope/133ws/install/hw6code:/home/hope/133ws/install/hw5code:/home/hope/133ws/install/hw4code:/home/hope/133ws/install/hw3code:/home/hope/133ws/install/gazebodemo:/home/hope/133ws/install/atlas_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hope/me133a/src/build/hwsols', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hope/me133a/src/install/hwsols/lib/python3.10/site-packages:/home/hope/133ws/build/hw7code:/home/hope/133ws/install/hw7code/lib/python3.10/site-packages:/home/hope/133ws/build/hw6code:/home/hope/133ws/install/hw6code/lib/python3.10/site-packages:/home/hope/133ws/build/hw5code:/home/hope/133ws/install/hw5code/lib/python3.10/site-packages:/home/hope/133ws/build/hw4code:/home/hope/133ws/install/hw4code/lib/python3.10/site-packages:/home/hope/133ws/build/hw3code:/home/hope/133ws/install/hw3code/lib/python3.10/site-packages:/home/hope/133ws/build/gazebodemo:/home/hope/133ws/install/gazebodemo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hope/133ws/install/atlas_description'}, 'shell': False}
+[1.407294] (-) TimerEvent: {}
+[1.508041] (-) TimerEvent: {}
+[1.608698] (-) TimerEvent: {}
+[1.709368] (-) TimerEvent: {}
+[1.718944] (gazebodemo) StdoutLine: {'line': b'running develop\n'}
+[1.719276] (gazebodemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.719410] (gazebodemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.721597] (gazebodemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.721846] (gazebodemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.722089] (hwsols) StdoutLine: {'line': b'running develop\n'}
+[1.722537] (hwsols) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.722693] (hwsols) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.724289] (hwsols) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.724461] (hwsols) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.809855] (-) TimerEvent: {}
+[1.810684] (gazebodemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[1.810887] (gazebodemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.810990] (gazebodemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[1.811083] (gazebodemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.813485] (hwsols) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[1.813615] (hwsols) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.813752] (hwsols) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[1.813848] (hwsols) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.910271] (-) TimerEvent: {}
+[1.973448] (gazebodemo) StdoutLine: {'line': b'running egg_info\n'}
+[1.973652] (gazebodemo) StdoutLine: {'line': b'creating gazebodemo.egg-info\n'}
+[1.973886] (gazebodemo) StdoutLine: {'line': b'writing gazebodemo.egg-info/PKG-INFO\n'}
+[1.974111] (gazebodemo) StdoutLine: {'line': b'writing dependency_links to gazebodemo.egg-info/dependency_links.txt\n'}
+[1.974329] (gazebodemo) StdoutLine: {'line': b'writing entry points to gazebodemo.egg-info/entry_points.txt\n'}
+[1.974398] (gazebodemo) StdoutLine: {'line': b'writing requirements to gazebodemo.egg-info/requires.txt\n'}
+[1.974456] (gazebodemo) StdoutLine: {'line': b'writing top-level names to gazebodemo.egg-info/top_level.txt\n'}
+[1.974623] (gazebodemo) StdoutLine: {'line': b"writing manifest file 'gazebodemo.egg-info/SOURCES.txt'\n"}
+[1.977392] (gazebodemo) StdoutLine: {'line': b"reading manifest file 'gazebodemo.egg-info/SOURCES.txt'\n"}
+[1.978422] (gazebodemo) StdoutLine: {'line': b"writing manifest file 'gazebodemo.egg-info/SOURCES.txt'\n"}
+[1.979356] (hwsols) StdoutLine: {'line': b'running egg_info\n'}
+[1.979456] (hwsols) StdoutLine: {'line': b'creating hwsols.egg-info\n'}
+[1.979691] (hwsols) StdoutLine: {'line': b'writing hwsols.egg-info/PKG-INFO\n'}
+[1.979904] (hwsols) StdoutLine: {'line': b'writing dependency_links to hwsols.egg-info/dependency_links.txt\n'}
+[1.980239] (hwsols) StdoutLine: {'line': b'writing entry points to hwsols.egg-info/entry_points.txt\n'}
+[1.980398] (gazebodemo) StdoutLine: {'line': b'running build_ext\n'}
+[1.980644] (hwsols) StdoutLine: {'line': b'writing requirements to hwsols.egg-info/requires.txt\n'}
+[1.980751] (hwsols) StdoutLine: {'line': b'writing top-level names to hwsols.egg-info/top_level.txt\n'}
+[1.980898] (hwsols) StdoutLine: {'line': b"writing manifest file 'hwsols.egg-info/SOURCES.txt'\n"}
+[1.980974] (gazebodemo) StdoutLine: {'line': b'Creating /home/hope/me133a/src/install/gazebodemo/lib/python3.10/site-packages/gazebodemo.egg-link (link to .)\n'}
+[1.981620] (gazebodemo) StdoutLine: {'line': b'Installing drivemotion script to /home/hope/me133a/src/install/gazebodemo/lib/gazebodemo\n'}
+[1.981847] (gazebodemo) StdoutLine: {'line': b'Installing trackgui script to /home/hope/me133a/src/install/gazebodemo/lib/gazebodemo\n'}
+[1.982061] (gazebodemo) StdoutLine: {'line': b'\n'}
+[1.982269] (gazebodemo) StdoutLine: {'line': b'Installed /home/hope/me133a/src/build/gazebodemo\n'}
+[1.982392] (gazebodemo) StdoutLine: {'line': b'running install_data\n'}
+[1.982627] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/ament_index\n'}
+[1.982831] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/ament_index/resource_index\n'}
+[1.982991] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/ament_index/resource_index/packages\n'}
+[1.983144] (gazebodemo) StdoutLine: {'line': b'copying resource/gazebodemo -> /home/hope/me133a/src/install/gazebodemo/share/ament_index/resource_index/packages\n'}
+[1.983367] (gazebodemo) StdoutLine: {'line': b'copying package.xml -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo\n'}
+[1.983540] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/meshes\n'}
+[1.983752] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.983966] (gazebodemo) StdoutLine: {'line': b'copying urdf/sevenDOF_gazebo_position.xacro -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.984241] (hwsols) StdoutLine: {'line': b"reading manifest file 'hwsols.egg-info/SOURCES.txt'\n"}
+[1.984501] (gazebodemo) StdoutLine: {'line': b'copying urdf/sevenDOF_gazebo_velocity.xacro -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.984706] (gazebodemo) StdoutLine: {'line': b'copying urdf/sixDOF_gazebo_effort.xacro -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.984876] (gazebodemo) StdoutLine: {'line': b'copying urdf/sixDOF_gazebo_velocity.xacro -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.985155] (hwsols) StdoutLine: {'line': b"writing manifest file 'hwsols.egg-info/SOURCES.txt'\n"}
+[1.985324] (gazebodemo) StdoutLine: {'line': b'copying urdf/sevenDOF_gazebo_effort.xacro -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.985576] (gazebodemo) StdoutLine: {'line': b'copying urdf/sixDOF_gazebo_position.xacro -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.985746] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/launch\n'}
+[1.985827] (gazebodemo) StdoutLine: {'line': b'copying launch/gazebo_sevenDOF_usegui.launch.py -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/launch\n'}
+[1.986194] (gazebodemo) StdoutLine: {'line': b'copying launch/gazebo_plain.launch.py -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/launch\n'}
+[1.986590] (gazebodemo) StdoutLine: {'line': b'copying launch/gazebo_sixDOF.launch.py -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/launch\n'}
+[1.987016] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/config\n'}
+[1.987097] (gazebodemo) StdoutLine: {'line': b'copying config/sevenDOF_control_parameters.yaml -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/config\n'}
+[1.987347] (hwsols) StdoutLine: {'line': b'running build_ext\n'}
+[1.987455] (gazebodemo) StdoutLine: {'line': b'copying config/sixDOF_control_parameters.yaml -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/config\n'}
+[1.987710] (hwsols) StdoutLine: {'line': b'Creating /home/hope/me133a/src/install/hwsols/lib/python3.10/site-packages/hwsols.egg-link (link to .)\n'}
+[1.987790] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/worlds\n'}
+[1.987847] (gazebodemo) StdoutLine: {'line': b'copying worlds/realtime.world -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/worlds\n'}
+[1.988071] (gazebodemo) StdoutLine: {'line': b'copying worlds/stuff.world -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/worlds\n'}
+[1.988457] (gazebodemo) StdoutLine: {'line': b'copying worlds/slowtime.world -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/worlds\n'}
+[1.988870] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/models\n'}
+[1.989028] (gazebodemo) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/models/tetherball\n'}
+[1.989180] (gazebodemo) StdoutLine: {'line': b'copying models/tetherball/model.config -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/models/tetherball\n'}
+[1.989302] (hwsols) StdoutLine: {'line': b'Installing KinematicChain script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.989429] (hwsols) StdoutLine: {'line': b'Installing KinematicChainGravity script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.989600] (hwsols) StdoutLine: {'line': b'Installing TransformHelpers script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.989733] (gazebodemo) StdoutLine: {'line': b'copying models/tetherball/model.sdf -> /home/hope/me133a/src/install/gazebodemo/share/gazebodemo/models/tetherball\n'}
+[1.989845] (hwsols) StdoutLine: {'line': b'Installing hw3p3sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.989960] (hwsols) StdoutLine: {'line': b'Installing hw3p4sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.990108] (hwsols) StdoutLine: {'line': b'Installing hw3p5sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.990229] (hwsols) StdoutLine: {'line': b'Installing hw4p3sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.990340] (hwsols) StdoutLine: {'line': b'Installing hw4p4sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.990451] (hwsols) StdoutLine: {'line': b'Installing hw5p1sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.990626] (hwsols) StdoutLine: {'line': b'Installing hw5p2sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.990729] (hwsols) StdoutLine: {'line': b'Installing hw5p4sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.990843] (hwsols) StdoutLine: {'line': b'Installing hw6p2sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.990954] (hwsols) StdoutLine: {'line': b'Installing hw6p3sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.991089] (hwsols) StdoutLine: {'line': b'Installing hw6p4sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.991205] (hwsols) StdoutLine: {'line': b'Installing hw6p5sol script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.991388] (hwsols) StdoutLine: {'line': b'Installing kinematicchain script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.991536] (hwsols) StdoutLine: {'line': b'Installing kinematicchaingravity script to /home/hope/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.991648] (hwsols) StdoutLine: {'line': b'\n'}
+[1.991759] (hwsols) StdoutLine: {'line': b'Installed /home/hope/me133a/src/build/hwsols\n'}
+[1.991862] (hwsols) StdoutLine: {'line': b'running install_data\n'}
+[1.992031] (hwsols) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/hwsols/share/ament_index\n'}
+[1.992135] (hwsols) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/hwsols/share/ament_index/resource_index\n'}
+[1.992226] (hwsols) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/hwsols/share/ament_index/resource_index/packages\n'}
+[1.992315] (hwsols) StdoutLine: {'line': b'copying resource/hwsols -> /home/hope/me133a/src/install/hwsols/share/ament_index/resource_index/packages\n'}
+[1.992422] (hwsols) StdoutLine: {'line': b'copying package.xml -> /home/hope/me133a/src/install/hwsols/share/hwsols\n'}
+[1.992590] (hwsols) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.992733] (hwsols) StdoutLine: {'line': b'copying meshes/CubePlus.dae -> /home/hope/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.993052] (hwsols) StdoutLine: {'line': b'copying meshes/GimbalLowerArm.dae -> /home/hope/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.993633] (hwsols) StdoutLine: {'line': b'copying meshes/GimbalBase.dae -> /home/hope/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.994322] (hwsols) StdoutLine: {'line': b'copying meshes/GimbalUpperArm.dae -> /home/hope/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.994917] (hwsols) StdoutLine: {'line': b'copying meshes/Cube.dae -> /home/hope/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.995462] (hwsols) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/hwsols/share/hwsols/rviz\n'}
+[1.995659] (hwsols) StdoutLine: {'line': b'copying rviz/viewurdf.rviz -> /home/hope/me133a/src/install/hwsols/share/hwsols/rviz\n'}
+[1.995947] (hwsols) StdoutLine: {'line': b'copying rviz/viewatlas.rviz -> /home/hope/me133a/src/install/hwsols/share/hwsols/rviz\n'}
+[1.996412] (hwsols) StdoutLine: {'line': b'creating /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.996579] (hwsols) StdoutLine: {'line': b'copying urdf/sevenDOF_Obstacle.urdf -> /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.996976] (hwsols) StdoutLine: {'line': b'copying urdf/fourDOF.urdf -> /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.997369] (hwsols) StdoutLine: {'line': b'copying urdf/fourDOF_masses.urdf -> /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.997859] (hwsols) StdoutLine: {'line': b'copying urdf/gimbal.urdf -> /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.998268] (hwsols) StdoutLine: {'line': b'copying urdf/threeDOF.urdf -> /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.998680] (hwsols) StdoutLine: {'line': b'copying urdf/sevenDOF.urdf -> /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.999154] (hwsols) StdoutLine: {'line': b'copying urdf/sixDOF.urdf -> /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.999713] (hwsols) StdoutLine: {'line': b'copying urdf/pantilt.urdf -> /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[2.000209] (hwsols) StdoutLine: {'line': b'copying urdf/sixDOF_Obstacle.urdf -> /home/hope/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[2.010564] (-) TimerEvent: {}
+[2.031852] (gazebodemo) CommandEnded: {'returncode': 0}
+[2.053584] (gazebodemo) JobEnded: {'identifier': 'gazebodemo', 'rc': 0}
+[2.056645] (hwsols) CommandEnded: {'returncode': 0}
+[2.071370] (hwsols) JobEnded: {'identifier': 'hwsols', 'rc': 0}
+[2.071769] (-) EventReactorShutdown: {}

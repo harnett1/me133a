@@ -1,0 +1,19 @@
+[console_scripts]
+KinematicChain = hwsols.KinematicChain:main
+KinematicChainGravity = hwsols.KinematicChainGravity:main
+TransformHelpers = hwsols.TransformHelpers:main
+hw3p3sol = hwsols.hw3p3sol:main
+hw3p4sol = hwsols.hw3p4sol:main
+hw3p5sol = hwsols.hw3p5sol:main
+hw4p3sol = hwsols.hw4p3sol:main
+hw4p4sol = hwsols.hw4p4sol:main
+hw5p1sol = hwsols.hw5p1sol:main
+hw5p2sol = hwsols.hw5p2sol:main
+hw5p4sol = hwsols.hw5p4sol:main
+hw6p2sol = hwsols.hw6p2sol:main
+hw6p3sol = hwsols.hw6p3sol:main
+hw6p4sol = hwsols.hw6p4sol:main
+hw6p5sol = hwsols.hw6p5sol:main
+kinematicchain = hwsols.KinematicChain:main
+kinematicchaingravity = hwsols.KinematicChainGravity:main
+

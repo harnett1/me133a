@@ -1,0 +1,171 @@
+[0.463s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.463s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7e192f0ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7e19c61060>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7e19c61060>>)
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.495s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hope/me133a/src'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(gazebodemo) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(gazebodemo) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(gazebodemo) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(gazebodemo) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(gazebodemo) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(gazebodemo) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(gazebodemo) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(gazebodemo) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(gazebodemo) by extension 'ros'
+[0.523s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebodemo' with type 'ros.ament_python' and name 'gazebodemo'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(hwsols) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(hwsols) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(hwsols) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(hwsols) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(hwsols) by extension 'colcon_pkg'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(hwsols) by extensions ['colcon_meta']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(hwsols) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(hwsols) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(hwsols) by extension 'ros'
+[0.525s] DEBUG:colcon.colcon_core.package_identification:Package 'hwsols' with type 'ros.ament_python' and name 'hwsols'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.569s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/hope/133ws/install
+[0.573s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gazebodemo' build argument 'cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gazebodemo' build argument 'cmake_target' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gazebodemo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gazebodemo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gazebodemo' build argument 'cmake_clean_first' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gazebodemo' build argument 'cmake_force_configure' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gazebodemo' build argument 'ament_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gazebodemo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gazebodemo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'gazebodemo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hope/me133a/src/build/gazebodemo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hope/me133a/src/install/gazebodemo', 'merge_install': False, 'path': '/home/hope/me133a/src/gazebodemo', 'symlink_install': True, 'test_result_base': None}
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'hwsols' build argument 'cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'hwsols' build argument 'cmake_target' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'hwsols' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'hwsols' build argument 'cmake_clean_cache' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'hwsols' build argument 'cmake_clean_first' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'hwsols' build argument 'cmake_force_configure' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'hwsols' build argument 'ament_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'hwsols' build argument 'catkin_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'hwsols' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.693s] DEBUG:colcon.colcon_core.verb:Building package 'hwsols' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hope/me133a/src/build/hwsols', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hope/me133a/src/install/hwsols', 'merge_install': False, 'path': '/home/hope/me133a/src/hwsols', 'symlink_install': True, 'test_result_base': None}
+[0.695s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.701s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hope/me133a/src/gazebodemo' with build type 'ament_python'
+[0.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebodemo', 'ament_prefix_path')
+[0.707s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/hook/ament_prefix_path.ps1'
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/hook/ament_prefix_path.dsv'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/hook/ament_prefix_path.sh'
+[0.712s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.720s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hope/me133a/src/hwsols' with build type 'ament_python'
+[0.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwsols', 'ament_prefix_path')
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/install/hwsols/share/hwsols/hook/ament_prefix_path.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hope/me133a/src/install/hwsols/share/hwsols/hook/ament_prefix_path.dsv'
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/install/hwsols/share/hwsols/hook/ament_prefix_path.sh'
+[0.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.123s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hope/me133a/src/gazebodemo'
+[1.126s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.126s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.522s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hope/me133a/src/hwsols'
+[1.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hope/me133a/src/build/gazebodemo': PYTHONPATH=/home/hope/me133a/src/install/gazebodemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/me133a/src/install/gazebodemo --editable --build-directory /home/hope/me133a/src/build/gazebodemo/build --no-deps install_data --install-dir /home/hope/me133a/src/install/gazebodemo
+[2.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hope/me133a/src/build/hwsols': PYTHONPATH=/home/hope/me133a/src/install/hwsols/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/me133a/src/install/hwsols --editable --build-directory /home/hope/me133a/src/build/hwsols/build --no-deps install_data --install-dir /home/hope/me133a/src/install/hwsols
+[2.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebodemo', 'pythonpath_develop')
+[2.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/build/gazebodemo/share/gazebodemo/hook/pythonpath_develop.ps1'
+[2.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hope/me133a/src/build/gazebodemo' returned '0': PYTHONPATH=/home/hope/me133a/src/install/gazebodemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/me133a/src/install/gazebodemo --editable --build-directory /home/hope/me133a/src/build/gazebodemo/build --no-deps install_data --install-dir /home/hope/me133a/src/install/gazebodemo
+[2.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hope/me133a/src/build/gazebodemo/share/gazebodemo/hook/pythonpath_develop.dsv'
+[2.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/build/gazebodemo/share/gazebodemo/hook/pythonpath_develop.sh'
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/gazebodemo' for CMake module files
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/gazebodemo' for CMake config files
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/gazebodemo/lib'
+[2.744s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/gazebodemo/bin'
+[2.744s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/gazebodemo/lib/pkgconfig/gazebodemo.pc'
+[2.744s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/gazebodemo/lib/python3.10/site-packages'
+[2.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebodemo', 'pythonpath')
+[2.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/hook/pythonpath.ps1'
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/hook/pythonpath.dsv'
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/hook/pythonpath.sh'
+[2.748s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/gazebodemo/bin'
+[2.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebodemo)
+[2.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/package.ps1'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/package.dsv'
+[2.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/package.sh'
+[2.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/package.bash'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/hope/me133a/src/install/gazebodemo/share/gazebodemo/package.zsh'
+[2.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hope/me133a/src/install/gazebodemo/share/colcon-core/packages/gazebodemo)
+[2.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwsols', 'pythonpath_develop')
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/build/hwsols/share/hwsols/hook/pythonpath_develop.ps1'
+[2.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hope/me133a/src/build/hwsols' returned '0': PYTHONPATH=/home/hope/me133a/src/install/hwsols/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/me133a/src/install/hwsols --editable --build-directory /home/hope/me133a/src/build/hwsols/build --no-deps install_data --install-dir /home/hope/me133a/src/install/hwsols
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hope/me133a/src/build/hwsols/share/hwsols/hook/pythonpath_develop.dsv'
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/build/hwsols/share/hwsols/hook/pythonpath_develop.sh'
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/hwsols' for CMake module files
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/hwsols' for CMake config files
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/hwsols/lib'
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/hwsols/bin'
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/hwsols/lib/pkgconfig/hwsols.pc'
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/hwsols/lib/python3.10/site-packages'
+[2.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwsols', 'pythonpath')
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/install/hwsols/share/hwsols/hook/pythonpath.ps1'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hope/me133a/src/install/hwsols/share/hwsols/hook/pythonpath.dsv'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hope/me133a/src/install/hwsols/share/hwsols/hook/pythonpath.sh'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/hope/me133a/src/install/hwsols/bin'
+[2.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hwsols)
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/hope/me133a/src/install/hwsols/share/hwsols/package.ps1'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hope/me133a/src/install/hwsols/share/hwsols/package.dsv'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/hope/me133a/src/install/hwsols/share/hwsols/package.sh'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/hope/me133a/src/install/hwsols/share/hwsols/package.bash'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/hope/me133a/src/install/hwsols/share/hwsols/package.zsh'
+[2.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hope/me133a/src/install/hwsols/share/colcon-core/packages/hwsols)
+[2.773s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.773s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.773s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.773s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.784s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.784s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.784s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.799s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hope/me133a/src/install/local_setup.ps1'
+[2.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hope/me133a/src/install/_local_setup_util_ps1.py'
+[2.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hope/me133a/src/install/setup.ps1'
+[2.808s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hope/me133a/src/install/local_setup.sh'
+[2.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hope/me133a/src/install/_local_setup_util_sh.py'
+[2.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hope/me133a/src/install/setup.sh'
+[2.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hope/me133a/src/install/local_setup.bash'
+[2.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hope/me133a/src/install/setup.bash'
+[2.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hope/me133a/src/install/local_setup.zsh'
+[2.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hope/me133a/src/install/setup.zsh'
