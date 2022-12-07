@@ -1,0 +1,46 @@
+running develop
+running egg_info
+creating gazebodemo.egg-info
+writing gazebodemo.egg-info/PKG-INFO
+writing dependency_links to gazebodemo.egg-info/dependency_links.txt
+writing entry points to gazebodemo.egg-info/entry_points.txt
+writing requirements to gazebodemo.egg-info/requires.txt
+writing top-level names to gazebodemo.egg-info/top_level.txt
+writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+reading manifest file 'gazebodemo.egg-info/SOURCES.txt'
+writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hope/me133a/install/gazebodemo/lib/python3.10/site-packages/gazebodemo.egg-link (link to .)
+Installing drivemotion script to /home/hope/me133a/install/gazebodemo/lib/gazebodemo
+Installing trackgui script to /home/hope/me133a/install/gazebodemo/lib/gazebodemo
+
+Installed /home/hope/me133a/build/gazebodemo
+running install_data
+creating /home/hope/me133a/install/gazebodemo/share/ament_index
+creating /home/hope/me133a/install/gazebodemo/share/ament_index/resource_index
+creating /home/hope/me133a/install/gazebodemo/share/ament_index/resource_index/packages
+copying resource/gazebodemo -> /home/hope/me133a/install/gazebodemo/share/ament_index/resource_index/packages
+copying package.xml -> /home/hope/me133a/install/gazebodemo/share/gazebodemo
+creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/meshes
+creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sevenDOF_gazebo_position.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sevenDOF_gazebo_velocity.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sixDOF_gazebo_effort.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sixDOF_gazebo_velocity.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sevenDOF_gazebo_effort.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sixDOF_gazebo_position.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/launch
+copying launch/gazebo_sevenDOF_usegui.launch.py -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/launch
+copying launch/gazebo_plain.launch.py -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/launch
+copying launch/gazebo_sixDOF.launch.py -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/launch
+creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/config
+copying config/sevenDOF_control_parameters.yaml -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/config
+copying config/sixDOF_control_parameters.yaml -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/config
+creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/worlds
+copying worlds/realtime.world -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/worlds
+copying worlds/stuff.world -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/worlds
+copying worlds/slowtime.world -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/worlds
+creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/models
+creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/models/tetherball
+copying models/tetherball/model.config -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/models/tetherball
+copying models/tetherball/model.sdf -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/models/tetherball

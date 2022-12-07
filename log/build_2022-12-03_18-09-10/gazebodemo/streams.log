@@ -1,0 +1,56 @@
+[1.460s] Invoking command in '/home/hope/me133a/build/gazebodemo': PYTHONPATH=/home/hope/me133a/install/gazebodemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/me133a/install/gazebodemo --editable --build-directory /home/hope/me133a/build/gazebodemo/build --no-deps install_data --install-dir /home/hope/me133a/install/gazebodemo
+[1.858s] running develop
+[1.861s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.862s]   warnings.warn(
+[1.863s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.863s]   warnings.warn(
+[1.974s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.974s]   warnings.warn(
+[1.974s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.974s]   warnings.warn(
+[2.160s] running egg_info
+[2.160s] creating gazebodemo.egg-info
+[2.160s] writing gazebodemo.egg-info/PKG-INFO
+[2.161s] writing dependency_links to gazebodemo.egg-info/dependency_links.txt
+[2.161s] writing entry points to gazebodemo.egg-info/entry_points.txt
+[2.161s] writing requirements to gazebodemo.egg-info/requires.txt
+[2.161s] writing top-level names to gazebodemo.egg-info/top_level.txt
+[2.162s] writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+[2.164s] reading manifest file 'gazebodemo.egg-info/SOURCES.txt'
+[2.165s] writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+[2.168s] running build_ext
+[2.168s] Creating /home/hope/me133a/install/gazebodemo/lib/python3.10/site-packages/gazebodemo.egg-link (link to .)
+[2.169s] Installing drivemotion script to /home/hope/me133a/install/gazebodemo/lib/gazebodemo
+[2.169s] Installing trackgui script to /home/hope/me133a/install/gazebodemo/lib/gazebodemo
+[2.170s] 
+[2.170s] Installed /home/hope/me133a/build/gazebodemo
+[2.170s] running install_data
+[2.170s] creating /home/hope/me133a/install/gazebodemo/share/ament_index
+[2.170s] creating /home/hope/me133a/install/gazebodemo/share/ament_index/resource_index
+[2.170s] creating /home/hope/me133a/install/gazebodemo/share/ament_index/resource_index/packages
+[2.171s] copying resource/gazebodemo -> /home/hope/me133a/install/gazebodemo/share/ament_index/resource_index/packages
+[2.171s] copying package.xml -> /home/hope/me133a/install/gazebodemo/share/gazebodemo
+[2.171s] creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/meshes
+[2.171s] creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+[2.172s] copying urdf/sevenDOF_gazebo_position.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+[2.175s] copying urdf/sevenDOF_gazebo_velocity.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+[2.176s] copying urdf/sixDOF_gazebo_effort.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+[2.176s] copying urdf/sixDOF_gazebo_velocity.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+[2.177s] copying urdf/sevenDOF_gazebo_effort.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+[2.178s] copying urdf/sixDOF_gazebo_position.xacro -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/urdf
+[2.179s] creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/launch
+[2.179s] copying launch/gazebo_sevenDOF_usegui.launch.py -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/launch
+[2.179s] copying launch/gazebo_plain.launch.py -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/launch
+[2.180s] copying launch/gazebo_sixDOF.launch.py -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/launch
+[2.181s] creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/config
+[2.181s] copying config/sevenDOF_control_parameters.yaml -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/config
+[2.181s] copying config/sixDOF_control_parameters.yaml -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/config
+[2.182s] creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/worlds
+[2.182s] copying worlds/realtime.world -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/worlds
+[2.183s] copying worlds/stuff.world -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/worlds
+[2.183s] copying worlds/slowtime.world -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/worlds
+[2.184s] creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/models
+[2.184s] creating /home/hope/me133a/install/gazebodemo/share/gazebodemo/models/tetherball
+[2.184s] copying models/tetherball/model.config -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/models/tetherball
+[2.185s] copying models/tetherball/model.sdf -> /home/hope/me133a/install/gazebodemo/share/gazebodemo/models/tetherball
+[2.226s] Invoked command in '/home/hope/me133a/build/gazebodemo' returned '0': PYTHONPATH=/home/hope/me133a/install/gazebodemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/me133a/install/gazebodemo --editable --build-directory /home/hope/me133a/build/gazebodemo/build --no-deps install_data --install-dir /home/hope/me133a/install/gazebodemo

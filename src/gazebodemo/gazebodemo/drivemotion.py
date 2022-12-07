@@ -16,21 +16,44 @@ from rclpy.node         import Node
 from sensor_msgs.msg    import JointState
 from std_msgs.msg       import Float64MultiArray
 
-
+from hw5code.GeneratorNode import GeneratorNode
+from hw3code.Segments   import Hold, Stay, GotoCubic, SplineCubic
+from hw4code.hw4p3      import fkin, Jac
+from hwsols.KinematicChain import KinematicChain
+from hwsols.TransformHelpers import *
 #
 #   COPY THE TRAJECTORY CLASS AND ANY SUPPORTING CODE
 #
 class Trajectory():
     # Initialization.
     def __init__(self, node):
+        # Set up the kinematic chain object.
+        self.chain = KinematicChain(node, 'world', 'tip', self.jointnames())
+
         # Define known tip/joint positions
         self.qA = np.array([0, -0.39, 0, 0.73, 0, 0, 0]).reshape(7,1)
         #self.qB = np.array([1.55, -0.39, 0, 0.73, 0, 0.63, 0])
        
-        self.xB = np.array([-5.0, 0.0, 3.0]).reshape(3,1)
+        #self.xB = [-5.0, 0.0, 3.0]
 
         # Pre-compute what we can.
-        self.xA = fkin(self.qA)
+        #self.xA = fkin(self.qA)
+        #self.xA = [0.0, 0.74, 0.58]
+        self.x = 0
+        self.tA = 0.0
+        self.tB = 3.0
+        self.t_matrix = np.array([self.tA, self.tB])
+        self.A_matrix = np.array([[0.0, -0.6, 0.1, 0.0],
+                                [1.0, -0.55, 0.15, 0.02],
+                                [2.0, -0.4, 0.3, 0.05],
+                                [2.3, -0.3, 0.4, 0.1],
+                                [2.75, -0.15, 0.55, 0.15],
+                                [3.0, -0.1, 0.6, 0.2]])
+        #self.xA_matrix = np.array([self.tA, self.xA[0][0], self.xA[1][0], self.xA[2][0]]).reshape(1, 4)
+        #self.xB_matrix = np.array([self.tB, self.xB[0][0], self.xB[1][0], self.xB[2][0]]).reshape(1, 4)
+        #self.coords = np.array([self.xA_matrix, self.xB_matrix]).reshape(2, 4)
+        self.N = 5 # highest degree of the spline
+        #self.c_x, self.c_y, self.c_z = self.getSplineCoeffs(self.coords)
         # Better to ensure matching than hard-coding
         # self.xA = np.array([0.0,  1.0, 0.0]).reshape(3,1)
 
@@ -41,16 +64,19 @@ class Trajectory():
 
         # Define the current segment.  The first segment will be the
         # task-space tip movement from xA to xB.  Zero the start time.
-        self.t0      = 0.0
-        self.segment = GotoCubic(self.xA, self.xB, self.T, space='Tip')
+        #self.t0      = 0.0
+        #self.segment = GotoCubic(self.xA, self.xB, self.T, space='Tip')
 
         # Initialize the current joint location and the matching tip
         # error (which should be zero).
         self.q   = self.qA
-        self.err = self.xA - fkin(self.qA)
+        self.err = 0
+        #self.err = self.xA - fkin(self.qA)
 
         # Pick the convergence bandwidth.
         self.lam = 10
+
+        self.t = 0.0
 
 
     # Declare the joint names.
@@ -60,53 +86,128 @@ class Trajectory():
 
     # Evaluate at the given time.  This was last called (dt) ago.
     def evaluate(self, tabsolute, dt):
-        # Take action, based on whether the current segment's space.
-        if self.segment.space() == 'Tip':
-            # If the movement is completed, putting us at point B, add
-            # a joint move back to qA.  Re-evaluate on new segment.
-            if self.segment.completed(tabsolute - self.t0):
-                self.t0      = self.t0 + self.segment.duration()
-                self.segment = GotoCubic(self.q, self.qA, self.T, space='Joint')
-                return self.evaluate(tabsolute, dt)
+        if tabsolute > self.T: # reset the time for each segment
+            return self.evaluate(tabsolute - self.T, dt)
+        self.t = tabsolute
+        c_x = self.getSplineCoeffs(self.A_matrix[:, 0], self.A_matrix[:, 1])
+        c_y = self.getSplineCoeffs(self.A_matrix[:, 0], self.A_matrix[:, 2])
+        c_z = self.getSplineCoeffs(self.A_matrix[:, 0], self.A_matrix[:, 3])
+        c_x_vel = [c_x[n] for n in range(self.N+1)]
+        c_y_vel = [c_y[n] for n in range(self.N+1)]
+        c_z_vel = [c_z[n] for n in range(self.N+1)]
+        print('c_x')
+        print(c_x.tolist())
+        print('end')
+        x_x = 0
+        x_y = 0
+        x_z = 0
+        v_x = 0
+        v_y = 0
+        v_z = 0
+        for deg in range(self.N+1):
+            x_x += c_x.tolist()[deg] * self.t ** deg
+            x_y += c_y.tolist()[deg] * self.t ** deg
+            x_z += c_z.tolist()[deg] * self.t ** deg
+            if deg != 0:
+                v_x += c_x.tolist()[deg] * deg * self.t ** (deg - 1)
+                v_y += c_y.tolist()[deg] * deg * self.t ** (deg - 1)
+                v_z += c_z.tolist()[deg] * deg * self.t ** (deg - 1)
+        #x_x = c_x.tolist()[0] * self.t 
+        #x_y = c_y.tolist()[0] * self.t 
+        #x_z = c_z.tolist()[0] * self.t 
+        #t_coords = np.array([self.t**deg for deg in range(self.n+1)]).reshape(self.n+1, 1)
+        #t_coords_vel = np.array([(self.t-1)*self.t**deg for deg in range(self.n+1)]).reshape(self.n+1, 1)
+        #x_x = self.c_x.flatten() @ t_coords.flatten()    
+        #x_y = self.c_y.flatten() @ t_coords.flatten()    
+        #x_z = self.c_z.flatten() @ t_coords.flatten()    
+        x = np.array([x_x, x_y, x_z]).reshape(3,1)
+        print('x')
+        print(x)
+        print('end')
+        q = self.ikin(x, x, self.q)
+        
+        # calculate velocities
+        xdot = np.array([v_x, v_y, v_z]).reshape(3, 1)
+        print('xdot')
+        print(xdot)
+        print('end')
+        self.x = x
+        #v = pn.array([v_x, v_y, v_z]).reshape(3, 1)
+        #J7   = np.array([0.5, 0, 1, 0, 0, 0, 0]).reshape((1,7))
+        #vd7  = 0
 
-            # If the movement is ongoing, compute the current values.
-            (xd, xddot) = self.segment.evaluate(tabsolute - self.t0)
+        wd = np.zeros((3,1))
+        Rd = Reye()
 
-            # Grab the last joint value and tip error.
-            q   = self.q
-            err = self.err
+        J    = np.vstack((self.chain.Jv(),self.chain.Jw()))
+        xdot = np.vstack((xdot, wd))
 
-            # Compute the inverse kinematics
-            J    = Jac(q)
-            qdot = np.linalg.inv(J) @ (xddot + self.lam * err)
-            q    = q + dt * qdot
+        Jinv = np.linalg.pinv(J)
+        qdot = Jinv @ (xdot + self.lam * self.err)
+        self.qdot = qdot
+        print('qdot')
+        print(qdot)
+        print('end')
 
-            # Save the joint value and precompute the tip error for next cycle.
-            self.q   = q
-            self.err = xd - fkin(q)
+        q    = q + dt * qdot
+        self.chain.setjoints(q)
+        self.q = q
+        print('q')
+        print(q)
+        print('end')
 
-        # For joint splines:
-        else:
-            # If the movement is completed, putting us at point A, add
-            # a new straight line to xB.  Re-evaluate on new segment.
-            if self.segment.completed(tabsolute - self.t0):
-                self.t0      = self.t0 + self.segment.duration()
-                self.segment = GotoCubic(self.xA, self.xB, self.T, space='Tip')
-                # Return None to stop.
-                return self.evaluate(tabsolute, dt)
-
-            # If the movement is ongoing, compute the current values.
-            (q, qdot) = self.segment.evaluate(tabsolute - self.t0)
-
-            # Also, to transition back to tip space, save the joint
-            # value and declare a zero tip error.
-            self.q = q
-            self.e = np.array([0.0, 0.0, 0.0]).reshape(3,1)
-
-
+        #xd7  = 0
+        #x7   = 0.5*q[0,0] + q[2,0]
+        self.err  = np.vstack((ep(x, self.chain.ptip()),
+                      eR(Rd, self.chain.Rtip())))
+                     # xd7-x7))
+        print('err')
+        print(self.err)
+        print('end')
         # Return the position and velocity as python lists.
         return (q.flatten().tolist(), qdot.flatten().tolist())
 
+
+    def getSplineCoeffs(self, t_vals, coord_vals):
+        # Calculates the spline coefficients for a given set of points along a path
+        # in the form of s(t) = c_x_n * t^n + c_x_n-1 * t^(n+1) + ... + c_x_0
+        # using linear regression to minimize the error, e = s - t * c, for each term
+        # being a matrix.
+        # The error is minimized by c_x = pinv(t_x) * x, similar for c_y and c_z
+        t_matrix = []
+        t_vals = t_vals.tolist()
+        for t in t_vals:
+            row = []
+            for deg in range(self.N+1):
+                row.append(t ** deg)
+            t_matrix.append(row)
+        t_matrix = np.array(t_matrix)
+        coeffs = np.linalg.pinv(t_matrix) @ np.array(coord_vals)
+        return coeffs
+        #t_coords = np.array([spline_coords[0][0], spline_coords[1][0]]).reshape(2, 1)
+        #x_coords = np.array([spline_coords[0][1], spline_coords[1][1]]).reshape(2, 1)
+        #y_coords = np.array([spline_coords[0][2], spline_coords[1][2]]).reshape(2, 1)
+        #z_coords = np.array([spline_coords[0][3], spline_coords[1][3]]).reshape(2, 1)
+        #t = []
+        #for t_point in t_coords: # calculate the t matrix
+        #    t.append(np.array([t_point**deg for deg in range(self.n+1)]).reshape(1, self.n+1))
+        #t = np.array([t]).reshape(2, self.n+1)
+        #c_x = np.linalg.pinv(t) @ x_coords
+        #c_y = np.linalg.pinv(t) @ y_coords
+        #c_z = np.linalg.pinv(t) @ z_coords
+        #return c_x, c_y, c_z
+
+    def ikin(self, x_d, x_guess, q_guess):
+        # Return the ikin using the given conditions
+        #x_guess = fkin(q_guess)
+        dx = x_d - x_guess
+        J = np.vstack((self.chain.Jv(), self.chain.Jw()))
+        # If the position is within an arbitrarily small threshold, we return q_guess
+        if np.abs(dx[0][0]) < 10**-6 and np.abs(dx[1][0]) < 10**-6 and np.abs(dx[2][0]) < 10**-6:
+           return np.array(q_guess)
+        # Else, update theta_guess and run it again with updated angles
+        self.theta_guess = q_guess
+        return self.ikin(x_d, x_guess + dx, q_guess + np.linalg.pinv(J) @ dx)
 
 #
 #   Gazebo Interface Node Class
@@ -126,7 +227,7 @@ class GazeboInterfaceNode(Node):
                        'theta3':2,
                        'theta4':3,
                        'theta5':4,
-                       'theta6':5
+                       'theta6':5,
                        'theta7':6}
         self.dofs = len(self.joints)
 

@@ -1,0 +1,31 @@
+running develop
+running egg_info
+writing hwsols.egg-info/PKG-INFO
+writing dependency_links to hwsols.egg-info/dependency_links.txt
+writing entry points to hwsols.egg-info/entry_points.txt
+writing requirements to hwsols.egg-info/requires.txt
+writing top-level names to hwsols.egg-info/top_level.txt
+reading manifest file 'hwsols.egg-info/SOURCES.txt'
+writing manifest file 'hwsols.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hope/me133a/install/hwsols/lib/python3.10/site-packages/hwsols.egg-link (link to .)
+Installing KinematicChain script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing KinematicChainGravity script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing TransformHelpers script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw3p3sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw3p4sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw3p5sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw4p3sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw4p4sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw5p1sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw5p2sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw5p4sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw6p2sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw6p3sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw6p4sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing hw6p5sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing kinematicchain script to /home/hope/me133a/install/hwsols/lib/hwsols
+Installing kinematicchaingravity script to /home/hope/me133a/install/hwsols/lib/hwsols
+
+Installed /home/hope/me133a/build/hwsols
+running install_data

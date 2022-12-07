@@ -1,0 +1,67 @@
+[1.433s] Invoking command in '/home/hope/me133a/build/hwsols': PYTHONPATH=/home/hope/me133a/install/hwsols/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/me133a/install/hwsols --editable --build-directory /home/hope/me133a/build/hwsols/build --no-deps install_data --install-dir /home/hope/me133a/install/hwsols
+[1.863s] running develop
+[1.864s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.864s]   warnings.warn(
+[1.865s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.865s]   warnings.warn(
+[1.975s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.975s]   warnings.warn(
+[1.975s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.975s]   warnings.warn(
+[2.155s] running egg_info
+[2.155s] creating hwsols.egg-info
+[2.155s] writing hwsols.egg-info/PKG-INFO
+[2.156s] writing dependency_links to hwsols.egg-info/dependency_links.txt
+[2.156s] writing entry points to hwsols.egg-info/entry_points.txt
+[2.156s] writing requirements to hwsols.egg-info/requires.txt
+[2.156s] writing top-level names to hwsols.egg-info/top_level.txt
+[2.157s] writing manifest file 'hwsols.egg-info/SOURCES.txt'
+[2.160s] reading manifest file 'hwsols.egg-info/SOURCES.txt'
+[2.161s] writing manifest file 'hwsols.egg-info/SOURCES.txt'
+[2.164s] running build_ext
+[2.164s] Creating /home/hope/me133a/install/hwsols/lib/python3.10/site-packages/hwsols.egg-link (link to .)
+[2.165s] Installing KinematicChain script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.165s] Installing KinematicChainGravity script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.166s] Installing TransformHelpers script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.166s] Installing hw3p3sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.166s] Installing hw3p4sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.166s] Installing hw3p5sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.166s] Installing hw4p3sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.167s] Installing hw4p4sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.167s] Installing hw5p1sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.167s] Installing hw5p2sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.167s] Installing hw5p4sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.167s] Installing hw6p2sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.167s] Installing hw6p3sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.168s] Installing hw6p4sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.168s] Installing hw6p5sol script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.168s] Installing kinematicchain script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.168s] Installing kinematicchaingravity script to /home/hope/me133a/install/hwsols/lib/hwsols
+[2.168s] 
+[2.168s] Installed /home/hope/me133a/build/hwsols
+[2.168s] running install_data
+[2.169s] creating /home/hope/me133a/install/hwsols/share/ament_index
+[2.169s] creating /home/hope/me133a/install/hwsols/share/ament_index/resource_index
+[2.169s] creating /home/hope/me133a/install/hwsols/share/ament_index/resource_index/packages
+[2.169s] copying resource/hwsols -> /home/hope/me133a/install/hwsols/share/ament_index/resource_index/packages
+[2.169s] copying package.xml -> /home/hope/me133a/install/hwsols/share/hwsols
+[2.169s] creating /home/hope/me133a/install/hwsols/share/hwsols/meshes
+[2.169s] copying meshes/CubePlus.dae -> /home/hope/me133a/install/hwsols/share/hwsols/meshes
+[2.170s] copying meshes/GimbalLowerArm.dae -> /home/hope/me133a/install/hwsols/share/hwsols/meshes
+[2.171s] copying meshes/GimbalBase.dae -> /home/hope/me133a/install/hwsols/share/hwsols/meshes
+[2.172s] copying meshes/GimbalUpperArm.dae -> /home/hope/me133a/install/hwsols/share/hwsols/meshes
+[2.172s] copying meshes/Cube.dae -> /home/hope/me133a/install/hwsols/share/hwsols/meshes
+[2.173s] creating /home/hope/me133a/install/hwsols/share/hwsols/rviz
+[2.173s] copying rviz/viewurdf.rviz -> /home/hope/me133a/install/hwsols/share/hwsols/rviz
+[2.173s] copying rviz/viewatlas.rviz -> /home/hope/me133a/install/hwsols/share/hwsols/rviz
+[2.174s] creating /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.174s] copying urdf/sevenDOF_Obstacle.urdf -> /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.174s] copying urdf/fourDOF.urdf -> /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.175s] copying urdf/fourDOF_masses.urdf -> /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.175s] copying urdf/gimbal.urdf -> /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.176s] copying urdf/threeDOF.urdf -> /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.176s] copying urdf/sevenDOF.urdf -> /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.177s] copying urdf/sixDOF.urdf -> /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.178s] copying urdf/pantilt.urdf -> /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.178s] copying urdf/sixDOF_Obstacle.urdf -> /home/hope/me133a/install/hwsols/share/hwsols/urdf
+[2.236s] Invoked command in '/home/hope/me133a/build/hwsols' returned '0': PYTHONPATH=/home/hope/me133a/install/hwsols/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/me133a/install/hwsols --editable --build-directory /home/hope/me133a/build/hwsols/build --no-deps install_data --install-dir /home/hope/me133a/install/hwsols

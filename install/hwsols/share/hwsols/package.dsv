@@ -1,0 +1,9 @@
+source;share/hwsols/hook/pythonpath.ps1
+source;share/hwsols/hook/pythonpath.dsv
+source;share/hwsols/hook/pythonpath.sh
+source;share/hwsols/hook/ament_prefix_path.ps1
+source;share/hwsols/hook/ament_prefix_path.dsv
+source;share/hwsols/hook/ament_prefix_path.sh
+source;../../build/hwsols/share/hwsols/hook/pythonpath_develop.ps1
+source;../../build/hwsols/share/hwsols/hook/pythonpath_develop.dsv
+source;../../build/hwsols/share/hwsols/hook/pythonpath_develop.sh
