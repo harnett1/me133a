@@ -1,0 +1,48 @@
+[0.911s] Invoking command in '/home/skunnam/me133a/src/build/gazebodemo': PYTHONPATH=/home/skunnam/me133a/src/install/gazebodemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/skunnam/me133a/src/install/gazebodemo --editable --build-directory /home/skunnam/me133a/src/build/gazebodemo/build --no-deps install_data --install-dir /home/skunnam/me133a/src/install/gazebodemo
+[1.179s] running develop
+[1.179s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.179s]   warnings.warn(
+[1.180s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.180s]   warnings.warn(
+[1.239s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.239s]   warnings.warn(
+[1.240s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.240s]   warnings.warn(
+[1.240s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.240s]   warnings.warn(
+[1.364s] running egg_info
+[1.364s] creating gazebodemo.egg-info
+[1.364s] writing gazebodemo.egg-info/PKG-INFO
+[1.364s] writing dependency_links to gazebodemo.egg-info/dependency_links.txt
+[1.364s] writing entry points to gazebodemo.egg-info/entry_points.txt
+[1.365s] writing requirements to gazebodemo.egg-info/requires.txt
+[1.365s] writing top-level names to gazebodemo.egg-info/top_level.txt
+[1.365s] writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+[1.367s] reading manifest file 'gazebodemo.egg-info/SOURCES.txt'
+[1.367s] writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+[1.369s] running build_ext
+[1.369s] Creating /home/skunnam/me133a/src/install/gazebodemo/lib/python3.10/site-packages/gazebodemo.egg-link (link to .)
+[1.370s] Installing drivemotion script to /home/skunnam/me133a/src/install/gazebodemo/lib/gazebodemo
+[1.370s] Installing trackgui script to /home/skunnam/me133a/src/install/gazebodemo/lib/gazebodemo
+[1.370s] 
+[1.370s] Installed /home/skunnam/me133a/src/build/gazebodemo
+[1.370s] running install_data
+[1.371s] creating /home/skunnam/me133a/src/install/gazebodemo/share/ament_index
+[1.371s] creating /home/skunnam/me133a/src/install/gazebodemo/share/ament_index/resource_index
+[1.371s] creating /home/skunnam/me133a/src/install/gazebodemo/share/ament_index/resource_index/packages
+[1.372s] copying resource/gazebodemo -> /home/skunnam/me133a/src/install/gazebodemo/share/ament_index/resource_index/packages
+[1.372s] copying package.xml -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo
+[1.372s] creating /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/meshes
+[1.372s] creating /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.372s] copying urdf/sixDOF_gazebo_effort.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.372s] copying urdf/ball.urdf -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.373s] copying urdf/sevenDOF_gazebo_position.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.373s] copying urdf/sixDOF_gazebo_position.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.373s] copying urdf/sixDOF.urdf -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.373s] copying urdf/sevenDOF_gazebo_effort.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.373s] copying urdf/ball2.urdf -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.374s] copying urdf/sevenDOF_gazebo_velocity.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.374s] copying urdf/sixDOF_gazebo_velocity.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+[1.374s] creating /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/launch
+[1.374s] error: can't copy 'launch/build': doesn't exist or not a regular file
+[1.437s] Invoked command in '/home/skunnam/me133a/src/build/gazebodemo' returned '1': PYTHONPATH=/home/skunnam/me133a/src/install/gazebodemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/skunnam/me133a/src/install/gazebodemo --editable --build-directory /home/skunnam/me133a/src/build/gazebodemo/build --no-deps install_data --install-dir /home/skunnam/me133a/src/install/gazebodemo

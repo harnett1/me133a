@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.001765] (gazebodemo) JobQueued: {'identifier': 'gazebodemo', 'dependencies': OrderedDict()}
+[0.002861] (hwsols) JobQueued: {'identifier': 'hwsols', 'dependencies': OrderedDict()}
+[0.002924] (gazebodemo) JobStarted: {'identifier': 'gazebodemo'}
+[0.013973] (hwsols) JobStarted: {'identifier': 'hwsols'}
+[0.099772] (-) TimerEvent: {}
+[0.200129] (-) TimerEvent: {}
+[0.300408] (-) TimerEvent: {}
+[0.400717] (-) TimerEvent: {}
+[0.501002] (-) TimerEvent: {}
+[0.601380] (-) TimerEvent: {}
+[0.701764] (-) TimerEvent: {}
+[0.802087] (-) TimerEvent: {}
+[0.902484] (-) TimerEvent: {}
+[0.913288] (gazebodemo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/skunnam/me133a/src/install/gazebodemo', '--editable', '--build-directory', '/home/skunnam/me133a/src/build/gazebodemo/build', '--no-deps', 'install_data', '--install-dir', '/home/skunnam/me133a/src/install/gazebodemo'], 'cwd': '/home/skunnam/me133a/src/build/gazebodemo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'skunnam', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/skunnam', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/skunnam/me133a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '178187', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/skunnam/133ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'skunnam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'skunnam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/skunnam/anaconda3/condabin:/opt/ros/humble/bin:/home/skunnam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/skunnam/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/skunnamhdna:@/tmp/.ICE-unix/2021,unix/skunnamhdna:/tmp/.ICE-unix/2021', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4e0bb112_84df_4fbf_8bad_2659aa08c3ad', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7J1PW1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.401', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/skunnam/133ws/install/hw7code:/home/skunnam/133ws/install/hw6code:/home/skunnam/133ws/install/hw5code:/home/skunnam/133ws/install/hw4code:/home/skunnam/133ws/install/hw3code:/home/skunnam/133ws/install/gazebodemo:/home/skunnam/133ws/install/atlas_description:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/skunnam/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/skunnam/me133a/src/build/gazebodemo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/skunnam/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/skunnam/me133a/src/install/gazebodemo/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw7code/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw6code/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw5code/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw4code/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw3code/lib/python3.10/site-packages:/home/skunnam/133ws/install/gazebodemo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/skunnam/133ws/install/atlas_description'}, 'shell': False}
+[0.918826] (hwsols) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/skunnam/me133a/src/install/hwsols', '--editable', '--build-directory', '/home/skunnam/me133a/src/build/hwsols/build', '--no-deps', 'install_data', '--install-dir', '/home/skunnam/me133a/src/install/hwsols'], 'cwd': '/home/skunnam/me133a/src/build/hwsols', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'skunnam', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/skunnam', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/skunnam/me133a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '178187', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/skunnam/133ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'skunnam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'skunnam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/skunnam/anaconda3/condabin:/opt/ros/humble/bin:/home/skunnam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/skunnam/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/skunnamhdna:@/tmp/.ICE-unix/2021,unix/skunnamhdna:/tmp/.ICE-unix/2021', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4e0bb112_84df_4fbf_8bad_2659aa08c3ad', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7J1PW1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.401', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/skunnam/133ws/install/hw7code:/home/skunnam/133ws/install/hw6code:/home/skunnam/133ws/install/hw5code:/home/skunnam/133ws/install/hw4code:/home/skunnam/133ws/install/hw3code:/home/skunnam/133ws/install/gazebodemo:/home/skunnam/133ws/install/atlas_description:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/skunnam/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/skunnam/me133a/src/build/hwsols', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/skunnam/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/skunnam/me133a/src/install/hwsols/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw7code/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw6code/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw5code/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw4code/lib/python3.10/site-packages:/home/skunnam/133ws/install/hw3code/lib/python3.10/site-packages:/home/skunnam/133ws/install/gazebodemo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/skunnam/133ws/install/atlas_description'}, 'shell': False}
+[1.002610] (-) TimerEvent: {}
+[1.102975] (-) TimerEvent: {}
+[1.180852] (hwsols) StdoutLine: {'line': b'running develop\n'}
+[1.181239] (hwsols) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.181389] (hwsols) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.181494] (gazebodemo) StdoutLine: {'line': b'running develop\n'}
+[1.181635] (gazebodemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.181776] (gazebodemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.182365] (hwsols) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.182510] (hwsols) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.182862] (gazebodemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.183009] (gazebodemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.203074] (-) TimerEvent: {}
+[1.241456] (gazebodemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[1.241835] (gazebodemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.242022] (hwsols) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[1.242198] (hwsols) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.242330] (hwsols) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[1.242459] (hwsols) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.242577] (gazebodemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[1.242700] (gazebodemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.242823] (hwsols) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[1.242950] (hwsols) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.243073] (gazebodemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[1.243197] (gazebodemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.303173] (-) TimerEvent: {}
+[1.354775] (hwsols) StdoutLine: {'line': b'running egg_info\n'}
+[1.355130] (hwsols) StdoutLine: {'line': b'creating hwsols.egg-info\n'}
+[1.355328] (hwsols) StdoutLine: {'line': b'writing hwsols.egg-info/PKG-INFO\n'}
+[1.355502] (hwsols) StdoutLine: {'line': b'writing dependency_links to hwsols.egg-info/dependency_links.txt\n'}
+[1.355714] (hwsols) StdoutLine: {'line': b'writing entry points to hwsols.egg-info/entry_points.txt\n'}
+[1.355925] (hwsols) StdoutLine: {'line': b'writing requirements to hwsols.egg-info/requires.txt\n'}
+[1.356081] (hwsols) StdoutLine: {'line': b'writing top-level names to hwsols.egg-info/top_level.txt\n'}
+[1.356239] (hwsols) StdoutLine: {'line': b"writing manifest file 'hwsols.egg-info/SOURCES.txt'\n"}
+[1.358257] (hwsols) StdoutLine: {'line': b"reading manifest file 'hwsols.egg-info/SOURCES.txt'\n"}
+[1.359097] (hwsols) StdoutLine: {'line': b"writing manifest file 'hwsols.egg-info/SOURCES.txt'\n"}
+[1.360618] (hwsols) StdoutLine: {'line': b'running build_ext\n'}
+[1.360893] (hwsols) StdoutLine: {'line': b'Creating /home/skunnam/me133a/src/install/hwsols/lib/python3.10/site-packages/hwsols.egg-link (link to .)\n'}
+[1.361790] (hwsols) StdoutLine: {'line': b'Installing KinematicChain script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.362038] (hwsols) StdoutLine: {'line': b'Installing KinematicChainGravity script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.362252] (hwsols) StdoutLine: {'line': b'Installing TransformHelpers script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.362475] (hwsols) StdoutLine: {'line': b'Installing hw3p3sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.362660] (hwsols) StdoutLine: {'line': b'Installing hw3p4sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.362840] (hwsols) StdoutLine: {'line': b'Installing hw3p5sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.363030] (hwsols) StdoutLine: {'line': b'Installing hw4p3sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.363211] (hwsols) StdoutLine: {'line': b'Installing hw4p4sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.363380] (hwsols) StdoutLine: {'line': b'Installing hw5p1sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.363507] (hwsols) StdoutLine: {'line': b'Installing hw5p2sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.363692] (hwsols) StdoutLine: {'line': b'Installing hw5p4sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.363887] (hwsols) StdoutLine: {'line': b'Installing hw6p2sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.364081] (hwsols) StdoutLine: {'line': b'Installing hw6p3sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.364264] (hwsols) StdoutLine: {'line': b'Installing hw6p4sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.364399] (hwsols) StdoutLine: {'line': b'Installing hw6p5sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.364531] (hwsols) StdoutLine: {'line': b'Installing kinematicchain script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.364663] (hwsols) StdoutLine: {'line': b'Installing kinematicchaingravity script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols\n'}
+[1.364794] (hwsols) StdoutLine: {'line': b'\n'}
+[1.364915] (hwsols) StdoutLine: {'line': b'Installed /home/skunnam/me133a/src/build/hwsols\n'}
+[1.365038] (hwsols) StdoutLine: {'line': b'running install_data\n'}
+[1.365164] (hwsols) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/hwsols/share/ament_index\n'}
+[1.365294] (hwsols) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/hwsols/share/ament_index/resource_index\n'}
+[1.365423] (hwsols) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/hwsols/share/ament_index/resource_index/packages\n'}
+[1.365555] (hwsols) StdoutLine: {'line': b'copying resource/hwsols -> /home/skunnam/me133a/src/install/hwsols/share/ament_index/resource_index/packages\n'}
+[1.365686] (hwsols) StdoutLine: {'line': b'copying package.xml -> /home/skunnam/me133a/src/install/hwsols/share/hwsols\n'}
+[1.365818] (hwsols) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.365943] (hwsols) StdoutLine: {'line': b'copying meshes/GimbalBase.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.366797] (gazebodemo) StdoutLine: {'line': b'running egg_info\n'}
+[1.366979] (gazebodemo) StdoutLine: {'line': b'creating gazebodemo.egg-info\n'}
+[1.367138] (gazebodemo) StdoutLine: {'line': b'writing gazebodemo.egg-info/PKG-INFO\n'}
+[1.367295] (gazebodemo) StdoutLine: {'line': b'writing dependency_links to gazebodemo.egg-info/dependency_links.txt\n'}
+[1.367451] (gazebodemo) StdoutLine: {'line': b'writing entry points to gazebodemo.egg-info/entry_points.txt\n'}
+[1.367591] (gazebodemo) StdoutLine: {'line': b'writing requirements to gazebodemo.egg-info/requires.txt\n'}
+[1.367729] (gazebodemo) StdoutLine: {'line': b'writing top-level names to gazebodemo.egg-info/top_level.txt\n'}
+[1.367851] (gazebodemo) StdoutLine: {'line': b"writing manifest file 'gazebodemo.egg-info/SOURCES.txt'\n"}
+[1.369420] (hwsols) StdoutLine: {'line': b'copying meshes/CubePlus.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.369654] (gazebodemo) StdoutLine: {'line': b"reading manifest file 'gazebodemo.egg-info/SOURCES.txt'\n"}
+[1.370020] (hwsols) StdoutLine: {'line': b'copying meshes/GimbalUpperArm.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.370285] (gazebodemo) StdoutLine: {'line': b"writing manifest file 'gazebodemo.egg-info/SOURCES.txt'\n"}
+[1.370475] (hwsols) StdoutLine: {'line': b'copying meshes/GimbalLowerArm.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.370759] (hwsols) StdoutLine: {'line': b'copying meshes/Cube.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes\n'}
+[1.371087] (hwsols) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/hwsols/share/hwsols/rviz\n'}
+[1.371273] (hwsols) StdoutLine: {'line': b'copying rviz/viewatlas.rviz -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/rviz\n'}
+[1.371495] (hwsols) StdoutLine: {'line': b'copying rviz/viewurdf.rviz -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/rviz\n'}
+[1.371681] (gazebodemo) StdoutLine: {'line': b'running build_ext\n'}
+[1.371848] (hwsols) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.372018] (gazebodemo) StdoutLine: {'line': b'Creating /home/skunnam/me133a/src/install/gazebodemo/lib/python3.10/site-packages/gazebodemo.egg-link (link to .)\n'}
+[1.372163] (hwsols) StdoutLine: {'line': b'copying urdf/gimbal.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.372314] (hwsols) StdoutLine: {'line': b'copying urdf/threeDOF.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.372577] (hwsols) StdoutLine: {'line': b'copying urdf/fourDOF.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.372730] (gazebodemo) StdoutLine: {'line': b'Installing drivemotion script to /home/skunnam/me133a/src/install/gazebodemo/lib/gazebodemo\n'}
+[1.372881] (gazebodemo) StdoutLine: {'line': b'Installing trackgui script to /home/skunnam/me133a/src/install/gazebodemo/lib/gazebodemo\n'}
+[1.373024] (hwsols) StdoutLine: {'line': b'copying urdf/sixDOF_Obstacle.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.373179] (gazebodemo) StdoutLine: {'line': b'\n'}
+[1.373341] (gazebodemo) StdoutLine: {'line': b'Installed /home/skunnam/me133a/src/build/gazebodemo\n'}
+[1.373457] (gazebodemo) StdoutLine: {'line': b'running install_data\n'}
+[1.373568] (gazebodemo) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/gazebodemo/share/ament_index\n'}
+[1.373768] (gazebodemo) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/gazebodemo/share/ament_index/resource_index\n'}
+[1.373966] (hwsols) StdoutLine: {'line': b'copying urdf/sixDOF.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.374146] (gazebodemo) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/gazebodemo/share/ament_index/resource_index/packages\n'}
+[1.374339] (hwsols) StdoutLine: {'line': b'copying urdf/sevenDOF_Obstacle.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.374532] (gazebodemo) StdoutLine: {'line': b'copying resource/gazebodemo -> /home/skunnam/me133a/src/install/gazebodemo/share/ament_index/resource_index/packages\n'}
+[1.374697] (gazebodemo) StdoutLine: {'line': b'copying package.xml -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo\n'}
+[1.374879] (gazebodemo) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/meshes\n'}
+[1.375037] (hwsols) StdoutLine: {'line': b'copying urdf/pantilt.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.375210] (gazebodemo) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.375336] (gazebodemo) StdoutLine: {'line': b'copying urdf/sixDOF_gazebo_effort.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.375461] (gazebodemo) StdoutLine: {'line': b'copying urdf/ball.urdf -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.375586] (hwsols) StdoutLine: {'line': b'copying urdf/sevenDOF.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.375719] (gazebodemo) StdoutLine: {'line': b'copying urdf/sevenDOF_gazebo_position.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.375850] (gazebodemo) StdoutLine: {'line': b'copying urdf/sixDOF_gazebo_position.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.375983] (hwsols) StdoutLine: {'line': b'copying urdf/fourDOF_masses.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf\n'}
+[1.376163] (gazebodemo) StdoutLine: {'line': b'copying urdf/sixDOF.urdf -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.376294] (gazebodemo) StdoutLine: {'line': b'copying urdf/sevenDOF_gazebo_effort.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.376436] (gazebodemo) StdoutLine: {'line': b'copying urdf/ball2.urdf -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.376564] (gazebodemo) StdoutLine: {'line': b'copying urdf/sevenDOF_gazebo_velocity.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.376702] (gazebodemo) StdoutLine: {'line': b'copying urdf/sixDOF_gazebo_velocity.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf\n'}
+[1.376803] (gazebodemo) StdoutLine: {'line': b'creating /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/launch\n'}
+[1.376916] (gazebodemo) StderrLine: {'line': b"error: can't copy 'launch/build': doesn't exist or not a regular file\n"}
+[1.403342] (-) TimerEvent: {}
+[1.417486] (hwsols) CommandEnded: {'returncode': 0}
+[1.439911] (hwsols) JobEnded: {'identifier': 'hwsols', 'rc': 0}
+[1.440250] (gazebodemo) CommandEnded: {'returncode': 1}
+[1.440526] (gazebodemo) JobEnded: {'identifier': 'gazebodemo', 'rc': 1}
+[1.450469] (-) EventReactorShutdown: {}
