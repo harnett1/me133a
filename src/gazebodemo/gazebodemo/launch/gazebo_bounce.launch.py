@@ -58,7 +58,7 @@ def generate_launch_description():
 
     # Locate the robot's XACRO file to convert into a URDF XML.
     xacrofile = os.path.join(pkgdir('gazebodemo'),
-                             'urdf/sixDOF_gazebo_velocity.xacro')
+                             'urdf/sevenDOF_gazebo_velocity.xacro')
     with open(xacrofile, 'r') as file:
         doc = xacro.parse(file)
         xacro.process_doc(doc)
@@ -153,8 +153,8 @@ def generate_launch_description():
         executable = 'spawn_entity.py',
         respawn    = False,
         output     = 'screen',
-        arguments  = ['-entity', 'sixdof', '-topic', 'robot_description'])
-        # arguments  = ['-entity', 'sevendof', '-file', robot])
+        arguments  = ['-entity', 'sevendof', '-topic', 'robot_description'])
+        # arguments  = ['-entity', 'sixdof', '-file', robot])
 
     # Configure a control loader for the joint state broadcaster.
     load_joint_state_broadcaster = ExecuteProcess(
@@ -238,7 +238,7 @@ def generate_launch_description():
         node_spawn_wall4,
         node_spawn_robot,
 
-        node_gui,
+        #node_gui,
         node_track,
         node_bounce,
     ])

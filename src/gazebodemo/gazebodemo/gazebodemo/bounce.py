@@ -67,8 +67,8 @@ class DemoNode(Node):
         self.acive_requests = []
 
         # Create a subscriber to the gazebo state.
-        self.sub_links = self.create_subscription(
-            LinkStates, '/gazebo/link_states' ,self.cb_links, 10)
+        #self.sub_links = self.create_subscription(
+        #    LinkStates, '/gazebo/link_states' ,self.cb_links, 10)
 
 
     # Shutdown
@@ -108,9 +108,9 @@ class DemoNode(Node):
         request.name = 'flyingball'
         request.xml  = self.ballmodel
         request.robot_namespace = "ball"
-        request.initial_pose.position.x =  0.0
-        request.initial_pose.position.y =  0.5
-        request.initial_pose.position.z =  1.0
+        request.initial_pose.position.x =  0.5
+        request.initial_pose.position.y =  0.6
+        request.initial_pose.position.z =  0.2
 
         # Send the request (to be completed asynchronously).
         self.acive_requests.append(self.spawn_client.call_async(request))
