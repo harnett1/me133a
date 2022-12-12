@@ -1,0 +1,98 @@
+[0.662s] Invoking command in '/home/skunnam/133ws/src/hw5code/hw5code': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw5code build --build-base /home/skunnam/133ws/src/hw5code/build/hw5code/build install --prefix /home/skunnam/133ws/src/hw5code/install/hw5code --record /home/skunnam/133ws/src/hw5code/build/hw5code/install.log --single-version-externally-managed
+[0.922s] running egg_info
+[0.922s] creating ../build/hw5code/hw5code.egg-info
+[0.923s] writing ../build/hw5code/hw5code.egg-info/PKG-INFO
+[0.923s] writing dependency_links to ../build/hw5code/hw5code.egg-info/dependency_links.txt
+[0.923s] writing entry points to ../build/hw5code/hw5code.egg-info/entry_points.txt
+[0.923s] writing requirements to ../build/hw5code/hw5code.egg-info/requires.txt
+[0.923s] writing top-level names to ../build/hw5code/hw5code.egg-info/top_level.txt
+[0.924s] writing manifest file '../build/hw5code/hw5code.egg-info/SOURCES.txt'
+[0.925s] reading manifest file '../build/hw5code/hw5code.egg-info/SOURCES.txt'
+[0.926s] writing manifest file '../build/hw5code/hw5code.egg-info/SOURCES.txt'
+[0.926s] running build
+[0.926s] running build_py
+[0.927s] creating /home/skunnam/133ws/src/hw5code/build/hw5code/build
+[0.927s] creating /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib
+[0.927s] creating /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/GeneratorNode.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/KinematicChain.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/hw4p4sol.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/hw5p4.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/__init__.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/hw5p2a.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/hw5p1.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/hw5p2b.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/TransformHelpers.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.927s] copying hw5code/hw4p3sol.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+[0.928s] running install
+[0.928s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.928s]   warnings.warn(
+[0.928s] running install_lib
+[0.929s] creating /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.929s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/GeneratorNode.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.929s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/KinematicChain.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.929s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw4p4sol.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.929s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw5p4.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.929s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/__init__.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.930s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw5p2a.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.930s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw5p1.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.930s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw5p2b.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.930s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/TransformHelpers.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.930s] copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw4p3sol.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+[0.930s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/GeneratorNode.py to GeneratorNode.cpython-310.pyc
+[0.931s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/KinematicChain.py to KinematicChain.cpython-310.pyc
+[0.933s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw4p4sol.py to hw4p4sol.cpython-310.pyc
+[0.933s]   File "/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/KinematicChain.py", line 275
+[0.933s]     FIXME: PICK A CASE:
+[0.933s]                 ^
+[0.933s] SyntaxError: invalid syntax
+[0.933s] 
+[0.934s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p4.py to hw5p4.cpython-310.pyc
+[0.934s]   File "/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p4.py", line 55
+[0.934s]     (FIXME: similar for beta in second part.)
+[0.934s]           ^
+[0.934s] SyntaxError: invalid syntax
+[0.934s] 
+[0.934s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/__init__.py to __init__.cpython-310.pyc
+[0.934s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p2a.py to hw5p2a.cpython-310.pyc
+[0.934s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (hw5p2a.py, line 48)
+[0.935s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p1.py to hw5p1.cpython-310.pyc
+[0.935s]   File "/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p1.py", line 23
+[0.935s]     DO YOU NEED TO IMPORT THE FORWARD KINEMATIC FUNCTIONS?
+[0.935s]        ^^^
+[0.935s] SyntaxError: invalid syntax
+[0.935s] 
+[0.935s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p2b.py to hw5p2b.cpython-310.pyc
+[0.935s]   File "/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p2b.py", line 20
+[0.935s]     DO YOU NEED TO IMPORT THE FORWARD KINEMATIC FUNCTIONS?
+[0.935s]        ^^^
+[0.935s] SyntaxError: invalid syntax
+[0.935s] 
+[0.935s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/TransformHelpers.py to TransformHelpers.cpython-310.pyc
+[0.936s] byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw4p3sol.py to hw4p3sol.cpython-310.pyc
+[0.936s] running install_data
+[0.937s] creating /home/skunnam/133ws/src/hw5code/install/hw5code/share/ament_index
+[0.937s] creating /home/skunnam/133ws/src/hw5code/install/hw5code/share/ament_index/resource_index
+[0.937s] creating /home/skunnam/133ws/src/hw5code/install/hw5code/share/ament_index/resource_index/packages
+[0.937s] copying resource/hw5code -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/ament_index/resource_index/packages
+[0.937s] copying package.xml -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code
+[0.937s] creating /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+[0.937s] copying meshes/GimbalBase.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+[0.937s] copying meshes/CubePlus.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+[0.938s] copying meshes/GimbalUpperArm.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+[0.938s] copying meshes/GimbalLowerArm.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+[0.939s] copying meshes/Cube.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+[0.939s] running install_egg_info
+[0.940s] Copying ../build/hw5code/hw5code.egg-info to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code-0.0.0-py3.10.egg-info
+[0.941s] running install_scripts
+[0.963s] Installing KinematicChain script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+[0.963s] Installing hw4p3sol script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+[0.963s] Installing hw4p4sol script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+[0.963s] Installing hw5p1 script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+[0.963s] Installing hw5p2 script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+[0.963s] Installing hw5p2a script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+[0.963s] Installing hw5p2b script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+[0.963s] Installing hw5p3 script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+[0.963s] Installing hw5p4 script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+[0.963s] writing list of installed files to '/home/skunnam/133ws/src/hw5code/build/hw5code/install.log'
+[0.989s] Invoked command in '/home/skunnam/133ws/src/hw5code/hw5code' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw5code build --build-base /home/skunnam/133ws/src/hw5code/build/hw5code/build install --prefix /home/skunnam/133ws/src/hw5code/install/hw5code --record /home/skunnam/133ws/src/hw5code/build/hw5code/install.log --single-version-externally-managed

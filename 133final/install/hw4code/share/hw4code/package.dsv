@@ -1,0 +1,9 @@
+source;share/hw4code/hook/pythonpath.ps1
+source;share/hw4code/hook/pythonpath.dsv
+source;share/hw4code/hook/pythonpath.sh
+source;share/hw4code/hook/ament_prefix_path.ps1
+source;share/hw4code/hook/ament_prefix_path.dsv
+source;share/hw4code/hook/ament_prefix_path.sh
+source;../../build/hw4code/share/hw4code/hook/pythonpath_develop.ps1
+source;../../build/hw4code/share/hw4code/hook/pythonpath_develop.dsv
+source;../../build/hw4code/share/hw4code/hook/pythonpath_develop.sh

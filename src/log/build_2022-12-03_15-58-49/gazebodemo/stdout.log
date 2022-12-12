@@ -1,0 +1,35 @@
+running develop
+running egg_info
+creating gazebodemo.egg-info
+writing gazebodemo.egg-info/PKG-INFO
+writing dependency_links to gazebodemo.egg-info/dependency_links.txt
+writing entry points to gazebodemo.egg-info/entry_points.txt
+writing requirements to gazebodemo.egg-info/requires.txt
+writing top-level names to gazebodemo.egg-info/top_level.txt
+writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+reading manifest file 'gazebodemo.egg-info/SOURCES.txt'
+writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/skunnam/me133a/src/install/gazebodemo/lib/python3.10/site-packages/gazebodemo.egg-link (link to .)
+Installing drivemotion script to /home/skunnam/me133a/src/install/gazebodemo/lib/gazebodemo
+Installing trackgui script to /home/skunnam/me133a/src/install/gazebodemo/lib/gazebodemo
+
+Installed /home/skunnam/me133a/src/build/gazebodemo
+running install_data
+creating /home/skunnam/me133a/src/install/gazebodemo/share/ament_index
+creating /home/skunnam/me133a/src/install/gazebodemo/share/ament_index/resource_index
+creating /home/skunnam/me133a/src/install/gazebodemo/share/ament_index/resource_index/packages
+copying resource/gazebodemo -> /home/skunnam/me133a/src/install/gazebodemo/share/ament_index/resource_index/packages
+copying package.xml -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo
+creating /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/meshes
+creating /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sixDOF_gazebo_effort.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/ball.urdf -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sevenDOF_gazebo_position.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sixDOF_gazebo_position.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sixDOF.urdf -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sevenDOF_gazebo_effort.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/ball2.urdf -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sevenDOF_gazebo_velocity.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+copying urdf/sixDOF_gazebo_velocity.xacro -> /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/urdf
+creating /home/skunnam/me133a/src/install/gazebodemo/share/gazebodemo/launch

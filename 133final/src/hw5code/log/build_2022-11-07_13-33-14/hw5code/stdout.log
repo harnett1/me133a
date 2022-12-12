@@ -1,0 +1,73 @@
+running egg_info
+creating ../build/hw5code/hw5code.egg-info
+writing ../build/hw5code/hw5code.egg-info/PKG-INFO
+writing dependency_links to ../build/hw5code/hw5code.egg-info/dependency_links.txt
+writing entry points to ../build/hw5code/hw5code.egg-info/entry_points.txt
+writing requirements to ../build/hw5code/hw5code.egg-info/requires.txt
+writing top-level names to ../build/hw5code/hw5code.egg-info/top_level.txt
+writing manifest file '../build/hw5code/hw5code.egg-info/SOURCES.txt'
+reading manifest file '../build/hw5code/hw5code.egg-info/SOURCES.txt'
+writing manifest file '../build/hw5code/hw5code.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/skunnam/133ws/src/hw5code/build/hw5code/build
+creating /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib
+creating /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/GeneratorNode.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/KinematicChain.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/hw4p4sol.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/hw5p4.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/__init__.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/hw5p2a.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/hw5p1.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/hw5p2b.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/TransformHelpers.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+copying hw5code/hw4p3sol.py -> /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code
+running install
+running install_lib
+creating /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/GeneratorNode.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/KinematicChain.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw4p4sol.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw5p4.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/__init__.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw5p2a.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw5p1.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw5p2b.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/TransformHelpers.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+copying /home/skunnam/133ws/src/hw5code/build/hw5code/build/lib/hw5code/hw4p3sol.py -> /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/GeneratorNode.py to GeneratorNode.cpython-310.pyc
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/KinematicChain.py to KinematicChain.cpython-310.pyc
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw4p4sol.py to hw4p4sol.cpython-310.pyc
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p4.py to hw5p4.cpython-310.pyc
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p2a.py to hw5p2a.cpython-310.pyc
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p1.py to hw5p1.cpython-310.pyc
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p2b.py to hw5p2b.cpython-310.pyc
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/TransformHelpers.py to TransformHelpers.cpython-310.pyc
+byte-compiling /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw4p3sol.py to hw4p3sol.cpython-310.pyc
+running install_data
+creating /home/skunnam/133ws/src/hw5code/install/hw5code/share/ament_index
+creating /home/skunnam/133ws/src/hw5code/install/hw5code/share/ament_index/resource_index
+creating /home/skunnam/133ws/src/hw5code/install/hw5code/share/ament_index/resource_index/packages
+copying resource/hw5code -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/ament_index/resource_index/packages
+copying package.xml -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code
+creating /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+copying meshes/GimbalBase.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+copying meshes/CubePlus.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+copying meshes/GimbalUpperArm.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+copying meshes/GimbalLowerArm.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+copying meshes/Cube.dae -> /home/skunnam/133ws/src/hw5code/install/hw5code/share/hw5code/meshes
+running install_egg_info
+Copying ../build/hw5code/hw5code.egg-info to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code-0.0.0-py3.10.egg-info
+running install_scripts
+Installing KinematicChain script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+Installing hw4p3sol script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+Installing hw4p4sol script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+Installing hw5p1 script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+Installing hw5p2 script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+Installing hw5p2a script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+Installing hw5p2b script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+Installing hw5p3 script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+Installing hw5p4 script to /home/skunnam/133ws/src/hw5code/install/hw5code/lib/hw5code
+writing list of installed files to '/home/skunnam/133ws/src/hw5code/build/hw5code/install.log'

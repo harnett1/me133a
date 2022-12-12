@@ -1,0 +1,46 @@
+[3.024s] Invoking command in '/home/hope/133final/build/hw5code': PYTHONPATH=/home/hope/133final/install/hw5code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/133final/install/hw5code --editable --build-directory /home/hope/133final/build/hw5code/build --no-deps install_data --install-dir /home/hope/133final/install/hw5code
+[3.648s] running develop
+[3.648s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.648s]   warnings.warn(
+[3.650s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.651s]   warnings.warn(
+[3.779s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.779s]   warnings.warn(
+[3.779s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.779s]   warnings.warn(
+[4.028s] running egg_info
+[4.028s] creating hw5code.egg-info
+[4.028s] writing hw5code.egg-info/PKG-INFO
+[4.031s] writing dependency_links to hw5code.egg-info/dependency_links.txt
+[4.031s] writing entry points to hw5code.egg-info/entry_points.txt
+[4.032s] writing requirements to hw5code.egg-info/requires.txt
+[4.032s] writing top-level names to hw5code.egg-info/top_level.txt
+[4.032s] writing manifest file 'hw5code.egg-info/SOURCES.txt'
+[4.034s] reading manifest file 'hw5code.egg-info/SOURCES.txt'
+[4.035s] writing manifest file 'hw5code.egg-info/SOURCES.txt'
+[4.037s] running build_ext
+[4.038s] Creating /home/hope/133final/install/hw5code/lib/python3.10/site-packages/hw5code.egg-link (link to .)
+[4.040s] Installing KinematicChain script to /home/hope/133final/install/hw5code/lib/hw5code
+[4.040s] Installing hw4p3sol script to /home/hope/133final/install/hw5code/lib/hw5code
+[4.040s] Installing hw4p4sol script to /home/hope/133final/install/hw5code/lib/hw5code
+[4.041s] Installing hw5p1 script to /home/hope/133final/install/hw5code/lib/hw5code
+[4.041s] Installing hw5p2 script to /home/hope/133final/install/hw5code/lib/hw5code
+[4.041s] Installing hw5p2a script to /home/hope/133final/install/hw5code/lib/hw5code
+[4.041s] Installing hw5p2b script to /home/hope/133final/install/hw5code/lib/hw5code
+[4.042s] Installing hw5p3 script to /home/hope/133final/install/hw5code/lib/hw5code
+[4.042s] Installing hw5p4 script to /home/hope/133final/install/hw5code/lib/hw5code
+[4.042s] 
+[4.042s] Installed /home/hope/133final/build/hw5code
+[4.043s] running install_data
+[4.043s] creating /home/hope/133final/install/hw5code/share/ament_index
+[4.043s] creating /home/hope/133final/install/hw5code/share/ament_index/resource_index
+[4.043s] creating /home/hope/133final/install/hw5code/share/ament_index/resource_index/packages
+[4.043s] copying resource/hw5code -> /home/hope/133final/install/hw5code/share/ament_index/resource_index/packages
+[4.043s] copying package.xml -> /home/hope/133final/install/hw5code/share/hw5code
+[4.043s] creating /home/hope/133final/install/hw5code/share/hw5code/meshes
+[4.044s] copying meshes/CubePlus.dae -> /home/hope/133final/install/hw5code/share/hw5code/meshes
+[4.044s] copying meshes/GimbalLowerArm.dae -> /home/hope/133final/install/hw5code/share/hw5code/meshes
+[4.044s] copying meshes/GimbalBase.dae -> /home/hope/133final/install/hw5code/share/hw5code/meshes
+[4.044s] copying meshes/GimbalUpperArm.dae -> /home/hope/133final/install/hw5code/share/hw5code/meshes
+[4.044s] copying meshes/Cube.dae -> /home/hope/133final/install/hw5code/share/hw5code/meshes
+[4.121s] Invoked command in '/home/hope/133final/build/hw5code' returned '0': PYTHONPATH=/home/hope/133final/install/hw5code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/133final/install/hw5code --editable --build-directory /home/hope/133final/build/hw5code/build --no-deps install_data --install-dir /home/hope/133final/install/hw5code

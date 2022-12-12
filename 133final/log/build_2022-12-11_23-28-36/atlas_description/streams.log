@@ -1,0 +1,77 @@
+[0.140s] Invoking command in '/home/hope/133final/build/atlas_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hope/133final/install/hw6code:/home/hope/133final/install/hw5code:/home/hope/133final/install/hw4code:/home/hope/133final/install/gazebodemo:/home/hope/133ws/install/ungrounded:/home/hope/133ws/install/hwsols:/home/hope/133ws/install/hw7code:/home/hope/133ws/install/hw6code:/home/hope/133ws/install/hw5code:/home/hope/133ws/install/hw4code:/home/hope/133ws/install/hw3code:/home/hope/133ws/install/gazebodemo:/opt/ros/humble /usr/bin/cmake --build /home/hope/133final/build/atlas_description -- -j6 -l6
+[2.295s] Invoked command in '/home/hope/133final/build/atlas_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hope/133final/install/hw6code:/home/hope/133final/install/hw5code:/home/hope/133final/install/hw4code:/home/hope/133final/install/gazebodemo:/home/hope/133ws/install/ungrounded:/home/hope/133ws/install/hwsols:/home/hope/133ws/install/hw7code:/home/hope/133ws/install/hw6code:/home/hope/133ws/install/hw5code:/home/hope/133ws/install/hw4code:/home/hope/133ws/install/hw3code:/home/hope/133ws/install/gazebodemo:/opt/ros/humble /usr/bin/cmake --build /home/hope/133final/build/atlas_description -- -j6 -l6
+[2.347s] Invoking command in '/home/hope/133final/build/atlas_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hope/133final/install/hw6code:/home/hope/133final/install/hw5code:/home/hope/133final/install/hw4code:/home/hope/133final/install/gazebodemo:/home/hope/133ws/install/ungrounded:/home/hope/133ws/install/hwsols:/home/hope/133ws/install/hw7code:/home/hope/133ws/install/hw6code:/home/hope/133ws/install/hw5code:/home/hope/133ws/install/hw4code:/home/hope/133ws/install/hw3code:/home/hope/133ws/install/gazebodemo:/opt/ros/humble /usr/bin/cmake --install /home/hope/133final/build/atlas_description
+[2.357s] -- Install configuration: ""
+[2.358s] -- Execute custom install script
+[2.358s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/launch/__init__.py
+[2.359s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/launch/viewatlas.launch.py
+[2.359s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes/base_link.mtl
+[2.360s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes/base_link.obj
+[2.360s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes/wheel.mtl
+[2.360s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes/wheel.obj
+[2.360s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/rviz/urdf.rviz
+[2.361s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/rviz/viewatlas.rviz
+[2.361s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/rviz/viewurdf.rviz
+[2.361s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/src/__init__.py
+[2.361s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/urdf/atlas.urdf
+[2.362s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/urdf/atlas_v5.urdf
+[2.362s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/urdf/atlasfixed.urdf
+[2.362s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/CMakeLists.txt
+[2.363s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/CMakeLists.txt
+[2.363s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/atlas_DRC_1.png
+[2.363s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/atlas_DRC_carbon_fiber.png
+[2.363s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/atlas_DRC_dark_1.png
+[2.363s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/atlas_cage_and_camera_diffuse_flat.jpg
+[2.364s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/drc_extremities_diffuse.jpg
+[2.364s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/drc_head_diffuse.png
+[2.364s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/drc_labels_1.jpg
+[2.364s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/drc_torso_head_diffuse.jpg
+[2.364s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/extremities_diffuse.png
+[2.365s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/extremities_diffuse_unplugged.jpg
+[2.365s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/right_leg_diffuse_unplugged.jpg
+[2.365s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/torso_diffuse.png
+[2.365s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/materials/textures/torso_diffuse_unplugged.jpg
+[2.366s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_clav.dae
+[2.366s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_farm.dae
+[2.366s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_foot.dae
+[2.366s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_hand.dae
+[2.367s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_larm.dae
+[2.367s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_lglut.dae
+[2.367s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_lleg.dae
+[2.367s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_scap.dae
+[2.368s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_talus.dae
+[2.368s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_uarm.dae
+[2.368s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_uglut.dae
+[2.368s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/l_uleg.dae
+[2.368s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/ltorso.dae
+[2.369s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/mtorso.dae
+[2.369s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/pelvis.dae
+[2.369s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_clav.dae
+[2.369s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_farm.dae
+[2.370s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_foot.dae
+[2.370s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_hand.dae
+[2.370s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_larm.dae
+[2.370s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_lglut.dae
+[2.370s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_lleg.dae
+[2.371s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_scap.dae
+[2.371s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_talus.dae
+[2.372s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_uarm.dae
+[2.372s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_uglut.dae
+[2.372s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/r_uleg.dae
+[2.373s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/meshes_unplugged/utorso.dae
+[2.373s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/ament_index/resource_index/package_run_dependencies/atlas_description
+[2.373s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/ament_index/resource_index/parent_prefix_path/atlas_description
+[2.373s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/environment/ament_prefix_path.sh
+[2.374s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/environment/ament_prefix_path.dsv
+[2.374s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/environment/path.sh
+[2.374s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/environment/path.dsv
+[2.375s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/local_setup.bash
+[2.375s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/local_setup.sh
+[2.375s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/local_setup.zsh
+[2.384s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/local_setup.dsv
+[2.384s] -- Symlinking: /home/hope/133final/install/atlas_description/share/atlas_description/package.dsv
+[2.387s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/ament_index/resource_index/packages/atlas_description
+[2.388s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/cmake/atlas_descriptionConfig.cmake
+[2.388s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/cmake/atlas_descriptionConfig-version.cmake
+[2.389s] -- Up-to-date symlink: /home/hope/133final/install/atlas_description/share/atlas_description/package.xml
+[2.393s] Invoked command in '/home/hope/133final/build/atlas_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hope/133final/install/hw6code:/home/hope/133final/install/hw5code:/home/hope/133final/install/hw4code:/home/hope/133final/install/gazebodemo:/home/hope/133ws/install/ungrounded:/home/hope/133ws/install/hwsols:/home/hope/133ws/install/hw7code:/home/hope/133ws/install/hw6code:/home/hope/133ws/install/hw5code:/home/hope/133ws/install/hw4code:/home/hope/133ws/install/hw3code:/home/hope/133ws/install/gazebodemo:/opt/ros/humble /usr/bin/cmake --install /home/hope/133final/build/atlas_description

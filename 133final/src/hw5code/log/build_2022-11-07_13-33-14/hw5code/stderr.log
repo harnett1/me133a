@@ -1,0 +1,23 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/KinematicChain.py", line 275
+    FIXME: PICK A CASE:
+                ^
+SyntaxError: invalid syntax
+
+  File "/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p4.py", line 55
+    (FIXME: similar for beta in second part.)
+          ^
+SyntaxError: invalid syntax
+
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (hw5p2a.py, line 48)
+  File "/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p1.py", line 23
+    DO YOU NEED TO IMPORT THE FORWARD KINEMATIC FUNCTIONS?
+       ^^^
+SyntaxError: invalid syntax
+
+  File "/home/skunnam/133ws/src/hw5code/install/hw5code/lib/python3.10/site-packages/hw5code/hw5p2b.py", line 20
+    DO YOU NEED TO IMPORT THE FORWARD KINEMATIC FUNCTIONS?
+       ^^^
+SyntaxError: invalid syntax
+

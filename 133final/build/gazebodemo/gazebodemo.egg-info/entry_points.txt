@@ -1,0 +1,5 @@
+[console_scripts]
+bounce = gazebodemo.bounce:main
+drivemotion = gazebodemo.drivemotion:main
+trackgui = gazebodemo.trackgui:main
+

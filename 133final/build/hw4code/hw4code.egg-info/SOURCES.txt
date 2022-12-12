@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+hw4code/TransformHelpers.py
+hw4code/__init__.py
+hw4code.egg-info/PKG-INFO
+hw4code.egg-info/SOURCES.txt
+hw4code.egg-info/dependency_links.txt
+hw4code.egg-info/entry_points.txt
+hw4code.egg-info/requires.txt
+hw4code.egg-info/top_level.txt
+hw4code.egg-info/zip-safe
+resource/hw4code

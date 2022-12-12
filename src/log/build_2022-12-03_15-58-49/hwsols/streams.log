@@ -1,0 +1,69 @@
+[0.906s] Invoking command in '/home/skunnam/me133a/src/build/hwsols': PYTHONPATH=/home/skunnam/me133a/src/install/hwsols/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/skunnam/me133a/src/install/hwsols --editable --build-directory /home/skunnam/me133a/src/build/hwsols/build --no-deps install_data --install-dir /home/skunnam/me133a/src/install/hwsols
+[1.167s] running develop
+[1.167s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.167s]   warnings.warn(
+[1.168s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.169s]   warnings.warn(
+[1.228s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.228s]   warnings.warn(
+[1.228s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.229s]   warnings.warn(
+[1.229s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.229s]   warnings.warn(
+[1.341s] running egg_info
+[1.341s] creating hwsols.egg-info
+[1.341s] writing hwsols.egg-info/PKG-INFO
+[1.342s] writing dependency_links to hwsols.egg-info/dependency_links.txt
+[1.342s] writing entry points to hwsols.egg-info/entry_points.txt
+[1.342s] writing requirements to hwsols.egg-info/requires.txt
+[1.342s] writing top-level names to hwsols.egg-info/top_level.txt
+[1.342s] writing manifest file 'hwsols.egg-info/SOURCES.txt'
+[1.344s] reading manifest file 'hwsols.egg-info/SOURCES.txt'
+[1.345s] writing manifest file 'hwsols.egg-info/SOURCES.txt'
+[1.347s] running build_ext
+[1.347s] Creating /home/skunnam/me133a/src/install/hwsols/lib/python3.10/site-packages/hwsols.egg-link (link to .)
+[1.348s] Installing KinematicChain script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.348s] Installing KinematicChainGravity script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.348s] Installing TransformHelpers script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.349s] Installing hw3p3sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.349s] Installing hw3p4sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.349s] Installing hw3p5sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.349s] Installing hw4p3sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.349s] Installing hw4p4sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.349s] Installing hw5p1sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.350s] Installing hw5p2sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.350s] Installing hw5p4sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.350s] Installing hw6p2sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.350s] Installing hw6p3sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.350s] Installing hw6p4sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.350s] Installing hw6p5sol script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.351s] Installing kinematicchain script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.351s] Installing kinematicchaingravity script to /home/skunnam/me133a/src/install/hwsols/lib/hwsols
+[1.351s] 
+[1.351s] Installed /home/skunnam/me133a/src/build/hwsols
+[1.351s] running install_data
+[1.351s] creating /home/skunnam/me133a/src/install/hwsols/share/ament_index
+[1.351s] creating /home/skunnam/me133a/src/install/hwsols/share/ament_index/resource_index
+[1.352s] creating /home/skunnam/me133a/src/install/hwsols/share/ament_index/resource_index/packages
+[1.352s] copying resource/hwsols -> /home/skunnam/me133a/src/install/hwsols/share/ament_index/resource_index/packages
+[1.352s] copying package.xml -> /home/skunnam/me133a/src/install/hwsols/share/hwsols
+[1.352s] creating /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes
+[1.352s] copying meshes/GimbalBase.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes
+[1.356s] copying meshes/CubePlus.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes
+[1.356s] copying meshes/GimbalUpperArm.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes
+[1.357s] copying meshes/GimbalLowerArm.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes
+[1.357s] copying meshes/Cube.dae -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/meshes
+[1.357s] creating /home/skunnam/me133a/src/install/hwsols/share/hwsols/rviz
+[1.357s] copying rviz/viewatlas.rviz -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/rviz
+[1.358s] copying rviz/viewurdf.rviz -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/rviz
+[1.358s] creating /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.358s] copying urdf/gimbal.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.358s] copying urdf/threeDOF.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.359s] copying urdf/fourDOF.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.359s] copying urdf/sixDOF_Obstacle.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.360s] copying urdf/sixDOF.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.360s] copying urdf/sevenDOF_Obstacle.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.361s] copying urdf/pantilt.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.362s] copying urdf/sevenDOF.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.362s] copying urdf/fourDOF_masses.urdf -> /home/skunnam/me133a/src/install/hwsols/share/hwsols/urdf
+[1.406s] Invoked command in '/home/skunnam/me133a/src/build/hwsols' returned '0': PYTHONPATH=/home/skunnam/me133a/src/install/hwsols/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/skunnam/me133a/src/install/hwsols --editable --build-directory /home/skunnam/me133a/src/build/hwsols/build --no-deps install_data --install-dir /home/skunnam/me133a/src/install/hwsols

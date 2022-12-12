@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+hw6code/GeneratorNode.py
+hw6code/KinematicChain.py
+hw6code/__init__.py
+hw6code.egg-info/PKG-INFO
+hw6code.egg-info/SOURCES.txt
+hw6code.egg-info/dependency_links.txt
+hw6code.egg-info/entry_points.txt
+hw6code.egg-info/requires.txt
+hw6code.egg-info/top_level.txt
+hw6code.egg-info/zip-safe
+resource/hw6code

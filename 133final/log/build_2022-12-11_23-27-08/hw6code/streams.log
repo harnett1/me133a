@@ -1,0 +1,40 @@
+[2.986s] Invoking command in '/home/hope/133final/build/hw6code': PYTHONPATH=/home/hope/133final/install/hw6code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/133final/install/hw6code --editable --build-directory /home/hope/133final/build/hw6code/build --no-deps install_data --install-dir /home/hope/133final/install/hw6code
+[3.601s] running develop
+[3.602s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.602s]   warnings.warn(
+[3.607s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.607s]   warnings.warn(
+[3.746s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.746s]   warnings.warn(
+[3.747s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.747s]   warnings.warn(
+[4.002s] running egg_info
+[4.003s] creating hw6code.egg-info
+[4.003s] writing hw6code.egg-info/PKG-INFO
+[4.003s] writing dependency_links to hw6code.egg-info/dependency_links.txt
+[4.003s] writing entry points to hw6code.egg-info/entry_points.txt
+[4.003s] writing requirements to hw6code.egg-info/requires.txt
+[4.003s] writing top-level names to hw6code.egg-info/top_level.txt
+[4.003s] writing manifest file 'hw6code.egg-info/SOURCES.txt'
+[4.003s] reading manifest file 'hw6code.egg-info/SOURCES.txt'
+[4.004s] writing manifest file 'hw6code.egg-info/SOURCES.txt'
+[4.005s] running build_ext
+[4.005s] Creating /home/hope/133final/install/hw6code/lib/python3.10/site-packages/hw6code.egg-link (link to .)
+[4.007s] Installing KinematicChain script to /home/hope/133final/install/hw6code/lib/hw6code
+[4.009s] Installing hw5p1sol script to /home/hope/133final/install/hw6code/lib/hw6code
+[4.010s] Installing hw5p2sol script to /home/hope/133final/install/hw6code/lib/hw6code
+[4.010s] Installing hw5p4sol script to /home/hope/133final/install/hw6code/lib/hw6code
+[4.010s] Installing hw6p1 script to /home/hope/133final/install/hw6code/lib/hw6code
+[4.010s] Installing hw6p2 script to /home/hope/133final/install/hw6code/lib/hw6code
+[4.011s] Installing hw6p3 script to /home/hope/133final/install/hw6code/lib/hw6code
+[4.011s] Installing hw6p4 script to /home/hope/133final/install/hw6code/lib/hw6code
+[4.011s] Installing hw6p5 script to /home/hope/133final/install/hw6code/lib/hw6code
+[4.011s] 
+[4.012s] Installed /home/hope/133final/build/hw6code
+[4.012s] running install_data
+[4.012s] creating /home/hope/133final/install/hw6code/share/ament_index
+[4.012s] creating /home/hope/133final/install/hw6code/share/ament_index/resource_index
+[4.012s] creating /home/hope/133final/install/hw6code/share/ament_index/resource_index/packages
+[4.012s] copying resource/hw6code -> /home/hope/133final/install/hw6code/share/ament_index/resource_index/packages
+[4.013s] copying package.xml -> /home/hope/133final/install/hw6code/share/hw6code
+[4.073s] Invoked command in '/home/hope/133final/build/hw6code' returned '0': PYTHONPATH=/home/hope/133final/install/hw6code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/133final/install/hw6code --editable --build-directory /home/hope/133final/build/hw6code/build --no-deps install_data --install-dir /home/hope/133final/install/hw6code
