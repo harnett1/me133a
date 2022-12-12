@@ -1,4 +1,0 @@
-[console_scripts]
-drivemotion = gazebodemo.drivemotion:main
-trackgui = gazebodemo.trackgui:main
-
