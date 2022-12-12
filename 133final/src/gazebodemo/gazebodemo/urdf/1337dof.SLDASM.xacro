@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="1337dof.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0369684012889796 0.0506212420276967 0.0677582412684986"
+        rpy="0 0 0" />
+      <mass
+        value="0.173941058727949" />
+      <inertia
+        ixx="6.29832745939654E-05"
+        ixy="1.65882325973073E-21"
+        ixz="8.70254787086307E-21"
+        iyy="0.00015866482435123"
+        iyz="3.63886496984304E-19"
+        izz="0.000123733274593965" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+		filename="$(find gazebodemo)/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link1">
+    <inertial>
+      <origin
+        xyz="2.65069825117203E-08 9.48872398709444E-09 -0.0359498127962766"
+        rpy="0 0 0" />
+      <mass
+        value="0.0173257120587347" />
+      <inertia
+        ixx="3.25004859520439E-06"
+        ixy="-3.38069193137107E-08"
+        ixz="-1.70742167067627E-12"
+        iyy="3.16261734314593E-06"
+        iyz="5.74155862245102E-13"
+        izz="9.20540399713751E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta1"
+    type="continuous">
+    <origin
+      xyz="0.036968 -0.067758 0.1233"
+      rpy="-3.1416 0 -0.34573" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link1" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link2">
+    <inertial>
+      <origin
+        xyz="-0.0262269945070539 -0.015432929319128 0.0278714006556136"
+        rpy="0 0 0" />
+      <mass
+        value="0.028168801779387" />
+      <inertia
+        ixx="3.52986424086249E-06"
+        ixy="-7.55951935781856E-07"
+        ixz="6.6164849512353E-13"
+        iyy="4.36970759114926E-06"
+        iyz="2.69723171306858E-12"
+        izz="3.09973972288891E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta2"
+    type="continuous">
+    <origin
+      xyz="0 0 -0.0750000000000031"
+      rpy="-1.57079632679489 -0.650235874325519 -1.89990096674987" />
+    <parent
+      link="Link1" />
+    <child
+      link="Link2" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link3">
+    <inertial>
+      <origin
+        xyz="-4.46466091874598E-09 3.66335109469595E-09 -0.0385347824681982"
+        rpy="0 0 0" />
+      <mass
+        value="0.0173255245335808" />
+      <inertia
+        ixx="3.15982752455319E-06"
+        ixy="-2.98474022656947E-08"
+        ixz="2.66809423869217E-13"
+        iyy="3.25283096394751E-06"
+        iyz="-3.20363490750374E-13"
+        izz="9.20528460758495E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta3"
+    type="continuous">
+    <origin
+      xyz="-0.0693060832608529 -0.0407822352304805 0.0399999999999975"
+      rpy="1.5707963267949 0.285331074546732 2.10266992901883" />
+    <parent
+      link="Link2" />
+    <child
+      link="Link3" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link4">
+    <inertial>
+      <origin
+        xyz="0.00511483497525969 0.0299978037394035 -0.022871402565206"
+        rpy="0 0 0" />
+      <mass
+        value="0.0281688125335254" />
+      <inertia
+        ixx="4.76567297728397E-06"
+        ixy="-2.86560315949824E-07"
+        ixz="1.0920375352632E-12"
+        iyy="3.13389759278405E-06"
+        iyz="-8.40894998110022E-14"
+        izz="3.09974086888935E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta4"
+    type="continuous">
+    <origin
+      xyz="0 0 -0.0775853005517348"
+      rpy="-1.5707963267949 0.703395551974333 -2.85626939241439" />
+    <parent
+      link="Link3" />
+    <child
+      link="Link4" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link5">
+    <inertial>
+      <origin
+        xyz="-2.9372760806945E-08 1.6306815453504E-08 0.0491810543644399"
+        rpy="0 0 0" />
+      <mass
+        value="0.0173257090846184" />
+      <inertia
+        ixx="3.25331617992524E-06"
+        ixy="2.90964280858405E-08"
+        ixz="-1.95486934336579E-12"
+        iyy="3.15934936320364E-06"
+        iyz="-1.50678889986871E-13"
+        izz="9.20541291108706E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta5"
+    type="continuous">
+    <origin
+      xyz="0.0117268154072887 0.068776168651376 -0.0349999999999985"
+      rpy="1.5707963267949 -0.980275485423863 2.97270981779169" />
+    <parent
+      link="Link4" />
+    <child
+      link="Link5" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link6">
+    <inertial>
+      <origin
+        xyz="0.0148827001078183 -0.00619158142467507 -0.0372763472524425"
+        rpy="0 0 0" />
+      <mass
+        value="0.025699480274069" />
+      <inertia
+        ixx="3.25126789152522E-06"
+        ixy="7.28109927729717E-07"
+        ixz="5.17099471328247E-10"
+        iyy="4.69851690112135E-06"
+        iyz="1.25833471943939E-09"
+        izz="3.06692753220792E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta6"
+    type="continuous">
+    <origin
+      xyz="0 0 0.0882312421354719"
+      rpy="1.57079632679489 0.402579043759183 1.84800633691819" />
+    <parent
+      link="Link5" />
+    <child
+      link="Link6" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link7">
+    <inertial>
+      <origin
+        xyz="-7.31383742458291E-09 0.0106101762282248 0.0223006877446758"
+        rpy="0 0 0" />
+      <mass
+        value="0.020154732962088" />
+      <inertia
+        ixx="3.93405664070193E-06"
+        ixy="1.76838456784841E-12"
+        ixz="1.7035809482773E-12"
+        iyy="2.41929631977898E-06"
+        iyz="-1.29093234756909E-12"
+        izz="2.21925811848881E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find gazebodemo)/meshes/Link7.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta7"
+    type="continuous">
+    <origin
+      xyz="0.060301 -0.024277 -0.060991"
+      rpy="1.5212 1.3211 2.6992" />
+    <parent
+      link="Link6" />
+    <child
+      link="Link7" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+
+
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <joint name="theta1">
+      <state_interface   name="position"/>
+      <state_interface   name="velocity"/>
+      <command_interface name="velocity"/>
+    </joint>
+
+    <joint name="theta2">
+      <state_interface   name="position"/>
+      <state_interface   name="velocity"/>
+      <command_interface name="velocity"/>
+    </joint>
+
+    <joint name="theta3">
+      <state_interface   name="position"/>
+      <state_interface   name="velocity"/>
+      <command_interface name="velocity"/>
+    </joint>
+
+    <joint name="theta4">
+      <state_interface   name="position"/>
+      <state_interface   name="velocity"/>
+      <command_interface name="velocity"/>
+    </joint>
+
+    <joint name="theta5">
+      <state_interface   name="position"/>
+      <state_interface   name="velocity"/>
+      <command_interface name="velocity"/>
+    </joint>
+
+    <joint name="theta6">
+      <state_interface   name="position"/>
+      <state_interface   name="velocity"/>
+      <command_interface name="velocity"/>
+    </joint>
+
+    <joint name="theta7">
+      <state_interface   name="position"/>
+      <state_interface   name="velocity"/>
+      <command_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+	    <parameters>/home/hope/133ws/src/gazebodemo/config/sevenDOF_control_parameters.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>
