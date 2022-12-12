@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing hw6code.egg-info/PKG-INFO
+writing dependency_links to hw6code.egg-info/dependency_links.txt
+writing entry points to hw6code.egg-info/entry_points.txt
+writing requirements to hw6code.egg-info/requires.txt
+writing top-level names to hw6code.egg-info/top_level.txt
+reading manifest file 'hw6code.egg-info/SOURCES.txt'
+writing manifest file 'hw6code.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hope/133final/install/hw6code/lib/python3.10/site-packages/hw6code.egg-link (link to .)
+Installing KinematicChain script to /home/hope/133final/install/hw6code/lib/hw6code
+Installing hw5p1sol script to /home/hope/133final/install/hw6code/lib/hw6code
+Installing hw5p2sol script to /home/hope/133final/install/hw6code/lib/hw6code
+Installing hw5p4sol script to /home/hope/133final/install/hw6code/lib/hw6code
+Installing hw6p1 script to /home/hope/133final/install/hw6code/lib/hw6code
+Installing hw6p2 script to /home/hope/133final/install/hw6code/lib/hw6code
+Installing hw6p3 script to /home/hope/133final/install/hw6code/lib/hw6code
+Installing hw6p4 script to /home/hope/133final/install/hw6code/lib/hw6code
+Installing hw6p5 script to /home/hope/133final/install/hw6code/lib/hw6code
+
+Installed /home/hope/133final/build/hw6code
+running install_data

@@ -1,0 +1,28 @@
+[3.023s] Invoking command in '/home/hope/133final/build/gazebodemo': PYTHONPATH=/home/hope/133final/install/gazebodemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/133final/install/gazebodemo --editable --build-directory /home/hope/133final/build/gazebodemo/build --no-deps install_data --install-dir /home/hope/133final/install/gazebodemo
+[3.628s] running develop
+[3.628s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.628s]   warnings.warn(
+[3.631s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.631s]   warnings.warn(
+[3.776s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.776s]   warnings.warn(
+[3.776s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.776s]   warnings.warn(
+[4.026s] running egg_info
+[4.028s] writing gazebodemo.egg-info/PKG-INFO
+[4.028s] writing dependency_links to gazebodemo.egg-info/dependency_links.txt
+[4.029s] writing entry points to gazebodemo.egg-info/entry_points.txt
+[4.029s] writing requirements to gazebodemo.egg-info/requires.txt
+[4.029s] writing top-level names to gazebodemo.egg-info/top_level.txt
+[4.033s] reading manifest file 'gazebodemo.egg-info/SOURCES.txt'
+[4.036s] writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+[4.039s] running build_ext
+[4.039s] Creating /home/hope/133final/install/gazebodemo/lib/python3.10/site-packages/gazebodemo.egg-link (link to .)
+[4.041s] Installing bounce script to /home/hope/133final/install/gazebodemo/lib/gazebodemo
+[4.041s] Installing drivemotion script to /home/hope/133final/install/gazebodemo/lib/gazebodemo
+[4.041s] Installing trackgui script to /home/hope/133final/install/gazebodemo/lib/gazebodemo
+[4.041s] 
+[4.041s] Installed /home/hope/133final/build/gazebodemo
+[4.042s] running install_data
+[4.042s] copying launch/gazebo_sevenDOF_usegui.launch.py -> /home/hope/133final/install/gazebodemo/share/gazebodemo/launch
+[4.093s] Invoked command in '/home/hope/133final/build/gazebodemo' returned '0': PYTHONPATH=/home/hope/133final/install/gazebodemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/133final/install/gazebodemo --editable --build-directory /home/hope/133final/build/gazebodemo/build --no-deps install_data --install-dir /home/hope/133final/install/gazebodemo

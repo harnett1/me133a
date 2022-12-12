@@ -1,0 +1,11 @@
+[console_scripts]
+KinematicChain = hw5code.KinematicChain:main
+hw4p3sol = hw5code.hw4p3sol:main
+hw4p4sol = hw5code.hw4p4sol:main
+hw5p1 = hw5code.hw5p1:main
+hw5p2 = hw5code.hw5p2:main
+hw5p2a = hw5code.hw5p2a:main
+hw5p2b = hw5code.hw5p2b:main
+hw5p3 = hw5code.hw5p3:main
+hw5p4 = hw5code.hw5p4:main
+

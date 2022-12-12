@@ -1,0 +1,1 @@
+/home/hope/133final/build/atlas_description/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,36 @@
+[2.984s] Invoking command in '/home/hope/133final/build/hw4code': PYTHONPATH=/home/hope/133final/install/hw4code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/133final/install/hw4code --editable --build-directory /home/hope/133final/build/hw4code/build --no-deps install_data --install-dir /home/hope/133final/install/hw4code
+[3.587s] running develop
+[3.588s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.588s]   warnings.warn(
+[3.590s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.590s]   warnings.warn(
+[3.722s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.723s]   warnings.warn(
+[3.723s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.723s]   warnings.warn(
+[3.957s] running egg_info
+[3.957s] creating hw4code.egg-info
+[3.958s] writing hw4code.egg-info/PKG-INFO
+[3.958s] writing dependency_links to hw4code.egg-info/dependency_links.txt
+[3.958s] writing entry points to hw4code.egg-info/entry_points.txt
+[3.958s] writing requirements to hw4code.egg-info/requires.txt
+[3.958s] writing top-level names to hw4code.egg-info/top_level.txt
+[3.959s] writing manifest file 'hw4code.egg-info/SOURCES.txt'
+[3.961s] reading manifest file 'hw4code.egg-info/SOURCES.txt'
+[3.962s] writing manifest file 'hw4code.egg-info/SOURCES.txt'
+[3.965s] running build_ext
+[3.966s] Creating /home/hope/133final/install/hw4code/lib/python3.10/site-packages/hw4code.egg-link (link to .)
+[3.967s] Installing hw3p3sol script to /home/hope/133final/install/hw4code/lib/hw4code
+[3.967s] Installing hw3p4sol script to /home/hope/133final/install/hw4code/lib/hw4code
+[3.968s] Installing hw3p5sol script to /home/hope/133final/install/hw4code/lib/hw4code
+[3.968s] Installing hw4p3 script to /home/hope/133final/install/hw4code/lib/hw4code
+[3.969s] Installing hw4p4 script to /home/hope/133final/install/hw4code/lib/hw4code
+[3.969s] 
+[3.969s] Installed /home/hope/133final/build/hw4code
+[3.969s] running install_data
+[3.969s] creating /home/hope/133final/install/hw4code/share/ament_index
+[3.970s] creating /home/hope/133final/install/hw4code/share/ament_index/resource_index
+[3.970s] creating /home/hope/133final/install/hw4code/share/ament_index/resource_index/packages
+[3.970s] copying resource/hw4code -> /home/hope/133final/install/hw4code/share/ament_index/resource_index/packages
+[3.970s] copying package.xml -> /home/hope/133final/install/hw4code/share/hw4code
+[4.023s] Invoked command in '/home/hope/133final/build/hw4code' returned '0': PYTHONPATH=/home/hope/133final/install/hw4code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hope/133final/install/hw4code --editable --build-directory /home/hope/133final/build/hw4code/build --no-deps install_data --install-dir /home/hope/133final/install/hw4code

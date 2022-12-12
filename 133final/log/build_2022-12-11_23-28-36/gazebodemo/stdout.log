@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing gazebodemo.egg-info/PKG-INFO
+writing dependency_links to gazebodemo.egg-info/dependency_links.txt
+writing entry points to gazebodemo.egg-info/entry_points.txt
+writing requirements to gazebodemo.egg-info/requires.txt
+writing top-level names to gazebodemo.egg-info/top_level.txt
+reading manifest file 'gazebodemo.egg-info/SOURCES.txt'
+writing manifest file 'gazebodemo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hope/133final/install/gazebodemo/lib/python3.10/site-packages/gazebodemo.egg-link (link to .)
+Installing bounce script to /home/hope/133final/install/gazebodemo/lib/gazebodemo
+Installing drivemotion script to /home/hope/133final/install/gazebodemo/lib/gazebodemo
+Installing trackgui script to /home/hope/133final/install/gazebodemo/lib/gazebodemo
+
+Installed /home/hope/133final/build/gazebodemo
+running install_data
+copying launch/gazebo_sevenDOF_usegui.launch.py -> /home/hope/133final/install/gazebodemo/share/gazebodemo/launch
