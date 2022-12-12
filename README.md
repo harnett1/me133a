@@ -1,6 +1,8 @@
 # me133a
 Final project for ME133a: Squash-playing Robotic Arm Simulation in Gazebo
 
+Please see the wiki for a breakdown of the code structure!
+
 # Building Gazebodemo Package
 1. Remove `build`, `install`, and `log` to clear previous build history.
 2. While in `133final/`, run `colcon-build --symlink-install && source install/setup.bash`
